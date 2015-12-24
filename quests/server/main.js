@@ -1,0 +1,4 @@
+initQuestContent = function() {
+	initQuestRegularContent();
+	initQuestDailyContent();
+}
