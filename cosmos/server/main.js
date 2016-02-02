@@ -205,7 +205,7 @@ Game.Cosmos.PLANET_MISSIONS = [
 ];
 
 // Describes what kind of missions are avaiable to attack player
-// Array from 0 to 7 mathes current consul rating level
+// Array from 0 to 7 matches current consul rating level
 Game.Cosmos.ATTACK_MISSIONS = [
 	[
 		{ type: 'patrolfleet', levels: [1] }
