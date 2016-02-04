@@ -1,9 +1,5 @@
 initCosmosContentServer = function () {
 
-Game.Cosmos.TIME_RESPAWN_MISSION = 120;
-Game.Cosmos.TIME_ATTACK_PLAYER = 120;
-Game.Cosmos.TIME_COLLECT_ARTEFACTS = 120;
-
 // Describes artefacts spread by groups
 // Array from 0 to 9 matches remoteness from player base
 // 0 - means player sector or last segment
