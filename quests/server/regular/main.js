@@ -1,4 +1,3 @@
 initQuestRegularContent = function() {
 	initQuestRegularContentTutorial();
-	initQuestRegularContentTest();
 }
