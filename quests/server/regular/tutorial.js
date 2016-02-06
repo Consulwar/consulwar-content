@@ -1,5 +1,8 @@
 initQuestRegularContentTutorial = function() {
 
+// TODO: Когда будете настраивать цепочки квестов, используйте функцию
+//       Game.Quest.checkFinished('tutorial')
+
 new game.QuestLine({
 	who: 'tamily',
 	engName: 'tutorial',
@@ -258,8 +261,12 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			// TODO: Change condition!
-			return !Game.Unit.has('ground', 'fathers', 1);
+			var user = Meteor.user();
+			var count = Meteor.Game.SpaceEvents.Collection.find({
+				user_id: user._id,
+				type: Game.SpaceEvents.type.REINFORCEMENT
+			}).count();
+			return (count >= 1) ? true : false;
 		}
 	}), new game.Quest({
 		engName: 'researchAlloy6',
@@ -395,7 +402,12 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			return !Game.Unit.has('ground', 'horizontalbarman', 1);
+			var user = Meteor.user();
+			var count = Meteor.Game.SpaceEvents.Collection.find({
+				user_id: user._id,
+				type: Game.SpaceEvents.type.REINFORCEMENT
+			}).count();
+			return (count >= 2) ? true : false;
 		}
 	}), new game.Quest({
 		engName: 'buildMetal11',
@@ -514,10 +526,12 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			// TODO: Change condition!
-			//return Game.Building.has('residential', 'house');
 			var user = Meteor.user();
-			return Battle.findOne({user_id: user._id});
+			return Meteor.Game.SpaceEvents.Collection.findOne({
+				user_id: user._id,
+				type: Game.SpaceEvents.type.SHIP,
+				'info.isHumans': true
+			});
 		}
 	}), new game.Quest({
 		engName: 'readMail',
