@@ -1,6 +1,7 @@
 initQuestRegularContentTutorial = function() {
 
 new game.QuestLine({
+	who: 'tamily',
 	engName: 'tutorial',
 	canStart: function() {
 		return true;
