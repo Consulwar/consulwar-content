@@ -1,8 +1,5 @@
 initQuestRegularContentEnergyResearch = function() {
 
-// TODO: Когда будете настраивать цепочки квестов, используйте функцию
-//       Game.Quest.checkFinished('tutorial')
-
 new game.QuestLine({
 	who: 'nataly_verlen',
 	engName: 'energy_research',
