@@ -18,7 +18,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 1-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 1-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -35,7 +35,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 5-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 5-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -52,7 +52,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 10-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 10-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -69,7 +69,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 15-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 15-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -86,7 +86,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 20-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 20-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -103,7 +103,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 25-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 25-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -120,7 +120,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 30-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 30-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -137,7 +137,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 35-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 35-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -154,7 +154,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 40-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 40-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -171,7 +171,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 45-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 45-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -188,7 +188,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 50-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 50-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -205,7 +205,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 55-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 55-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -222,7 +222,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 60-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 60-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -239,7 +239,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 65-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 65-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -256,7 +256,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 70-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 70-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -273,7 +273,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 75-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 75-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -290,7 +290,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 80-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 80-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -307,7 +307,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 85-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 85-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -324,7 +324,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 90-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 90-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -341,7 +341,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 95-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 95-го уровня.',
 				mood: 'positive'
 			}
 		},
@@ -358,7 +358,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя' + Game.Research.items.evolution.energy.name + ' до 100-го уровня.',
+				text: 'Ну, если это так важно, Натали, пусть исследуется эта твоя ' + Game.Research.items.evolution.energy.name + ' до 100-го уровня.',
 				mood: 'positive'
 			}
 		},
