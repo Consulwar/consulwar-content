@@ -157,7 +157,7 @@ new game.QuestLine({
 		},
 		options: {
 			accept: {
-				text: 'Нижний раздел, шевроны... Тык внизу, тык первое здание, тык-тык-тык пятый уровень! И наслажда-а-аемся видом.',
+				text: 'Нижний раздел, шевроны… Тык внизу, тык первое здание, тык-тык-тык пятый уровень! И наслажда-а-аемся видом.',
 				mood: 'positive'
 			}
 		},
@@ -308,7 +308,7 @@ new game.QuestLine({
 				user_id: user._id,
 				type: Game.SpaceEvents.type.REINFORCEMENT
 			}).count();
-			return (count >= 1) ? true : false;
+			return (count >= 2) ? true : false;
 		}
 	}), new game.Quest({
 		engName: 'buildHouse15',
