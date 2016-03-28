@@ -1,0 +1,18 @@
+stages:
+  - update
+  - deploy
+
+update_repo:
+  stage: update
+  only:
+    - dev
+  script:
+    - cd /media/sf_dev/consulwar/ && git fetch --all && git checkout dev
+    - cd /media/sf_dev/consulwar/content && git fetch --all && git checkout dev
+
+job_deploy:
+  stage: deploy
+  only:
+    - dev
+  script:
+    - cd /media/sf_dev/consulwar/ && sudo mupx deploy
