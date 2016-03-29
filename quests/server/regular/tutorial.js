@@ -214,7 +214,7 @@ new game.QuestLine({
 		},
 		isDone: function() {
 			var user = Meteor.user();
-			var count = Meteor.Game.SpaceEvents.Collection.find({
+			var count = Game.SpaceEvents.Collection.find({
 				user_id: user._id,
 				type: Game.SpaceEvents.type.REINFORCEMENT
 			}).count();
@@ -356,7 +356,7 @@ new game.QuestLine({
 		},
 		isDone: function() {
 			var user = Meteor.user();
-			var count = Meteor.Game.SpaceEvents.Collection.find({
+			var count = Game.SpaceEvents.Collection.find({
 				user_id: user._id,
 				type: Game.SpaceEvents.type.REINFORCEMENT
 			}).count();
@@ -600,7 +600,7 @@ new game.QuestLine({
 		},
 		isDone: function() {
 			var user = Meteor.user();
-			return Meteor.Game.SpaceEvents.Collection.findOne({
+			return Game.SpaceEvents.Collection.findOne({
 				user_id: user._id,
 				type: Game.SpaceEvents.type.SHIP,
 				'info.isHumans': true
