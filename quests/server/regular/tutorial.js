@@ -77,7 +77,7 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			return Game.Building.has('residential', 'powerstation', 5);
+			return Game.Building.has('military', 'powerstation', 5);
 		}
 	}), new game.Quest({
 		engName: 'buildLaboratory5',
