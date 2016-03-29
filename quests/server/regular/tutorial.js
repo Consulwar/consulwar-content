@@ -286,8 +286,7 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			return
-			Game.Building.has('residential', 'metal', 15) && Game.Building.has('residential', 'crystal', 15)
+			return Game.Building.has('residential', 'metal', 15) && Game.Building.has('residential', 'crystal', 15)
 		}
 	}), new game.Quest({
 		engName: 'buildPowerstation15',
