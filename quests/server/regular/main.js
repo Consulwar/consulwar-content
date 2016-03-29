@@ -1,5 +1,5 @@
 initQuestRegularContent = function() {
 	initQuestRegularContentTutorial();
-	initQuestRegularContentEnergyResearch();
+	//initQuestRegularContentEnergyResearch();
 	initQuestRegularContentHouseBuilding();
 }
