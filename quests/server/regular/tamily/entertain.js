@@ -332,3 +332,6 @@ new game.QuestLine({
 			return Game.Building.has('residential', 'entertainment', 100);
 		}
 	})
+])
+
+}
