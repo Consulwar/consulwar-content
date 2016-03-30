@@ -282,7 +282,7 @@ new game.QuestLine({
 		},
 		isDone: function() {
 			var user = Meteor.user();
-			var count = Meteor.Game.SpaceEvents.Collection.find({
+			var count = Game.SpaceEvents.Collection.find({
 				user_id: user._id,
 				type: Game.SpaceEvents.type.REINFORCEMENT
 			}).count();
@@ -291,7 +291,7 @@ new game.QuestLine({
 	}), new game.Quest({
 		engName: 'buildLaboratory510',
 		text: '<p>Потрясающе, ваша пехота отправилась на Землю! Но вы не должны останавливаться на достигнутом, правитель, ведь вас ждут великие дела! Самое время заложить фундамент для дальнейшего развития науки и техники, чтобы получить на выходе дивизию сияющих бронемашин и танков. А затем отправить их давить чешуйчатых гадов и перемалывать в пыль их технику и артиллерию. Для этого вам понадобится наука, ресурсы, а также Военный Завод. Но не будем слишком забегать вперёд, а начнём с Лаборатории. Необходимо довести её уровень до 10-го, чтобы получить доступ к Особым Сплавам. Это очень интересная технология, но я расскажу вам про неё чуть позже.</p><p>Лаборатория находится в военном районе, правитель, вы найдёте её сразу за Электостанцией.</p>',
-		conditionText: 'Исследовать ' + Game.Building.items.residential.laboratory.name + ' 10-го уровня',
+		conditionText: 'Исследовать ' + Game.Building.items.military.laboratory.name + ' 10-го уровня',
 		reward: {
 			metals: 1000,
 			crystals: 1000
@@ -354,8 +354,7 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			return
-			Game.Building.has('residential', 'metal', 15) && Game.Building.has('residential', 'crystal', 15)
+			return Game.Building.has('residential', 'metal', 15) && Game.Building.has('residential', 'crystal', 15)
 		}
 	}), new game.Quest({
 		engName: 'buildPowerstation15',
@@ -424,7 +423,7 @@ new game.QuestLine({
 		},
 		isDone: function() {
 			var user = Meteor.user();
-			var count = Meteor.Game.SpaceEvents.Collection.find({
+			var count = Game.SpaceEvents.Collection.find({
 				user_id: user._id,
 				type: Game.SpaceEvents.type.REINFORCEMENT
 			}).count();
@@ -513,8 +512,7 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			return
-			Game.Building.has('residential', 'metal', 20) && Game.Building.has('residential', 'crystal', 20)
+			return Game.Building.has('residential', 'metal', 20) && Game.Building.has('residential', 'crystal', 20)
 		}
 	}), new game.Quest({
 		engName: 'buildPowerstation20',
@@ -668,7 +666,7 @@ new game.QuestLine({
 		},
 		isDone: function() {
 			var user = Meteor.user();
-			return Meteor.Game.SpaceEvents.Collection.findOne({
+			return Game.SpaceEvents.Collection.findOne({
 				user_id: user._id,
 				type: Game.SpaceEvents.type.SHIP,
 				'info.isHumans': true
@@ -689,15 +687,11 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			var user = Meteor.user();
-			return !Mail.findOne({
-				to: user._id,
-				status: game.Mail.status.unread
-			});
-		}
+			return !Game.Mail.hasUnread();
+			};
 	}), new game.Quest({
 		engName: 'buildHouse25',
-		text: '<p>Теперь вы знаете достаточно, чтобы самостоятельно развивать эту колонию дальше, правитель. Последнее, о чем я попрошу — это улучшить Жилой Комплекс до двадцать пятого уровня, чтобы, наконец, потратить те очки Чести, которые вы заработали. Но не волнуйтесь, Консул, на этом наше общение не прекратится — и я, и учёные, и инженеры — мы все готовы помочь вам сделать эту планету самой лучшей и преуспевающей колонией в Галактике. О каждом направлении, требующем вашего внимания, мы будем докладывать и просить вашего содействия во всех важных вопросах, в этом вы можете на нас положиться. Вместе мы сделаем всё возможное для победы над зелеными тварями в космосе и на Земле.</p>',
+		text: '<p>Теперь вы знаете достаточно, чтобы самостоятельно развивать эту колонию дальше, правитель. Последнее, о чём я попрошу — это улучшить Жилой Комплекс до двадцать пятого уровня, чтобы, наконец, потратить те очки Чести, которые вы заработали. Но не волнуйтесь, Консул, на этом наше общение не прекратится — и я, и учёные, и инженеры — мы все готовы помочь вам сделать эту планету самой лучшей и преуспевающей колонией в Галактике. О каждом направлении, требующем вашего внимания, мы будем докладывать и просить вашего содействия во всех важных вопросах, в этом вы можете на нас положиться. Вместе мы сделаем всё возможное для победы над зелеными тварями в космосе и на Земле.</p>',
 		conditionText: 'Построить ' + Game.Building.items.residential.house.name + ' 25-го уровня',
 		reward: {
 			metals: 200000,
