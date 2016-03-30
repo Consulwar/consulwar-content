@@ -619,11 +619,7 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			var user = Meteor.user();
-			return !Mail.findOne({
-				to: user._id,
-				status: game.Mail.status.unread
-			});
+			return !Game.Mail.hasUnread();
 		}
 	}), new game.Quest({
 		engName: 'buildHouse25',
