@@ -46,9 +46,9 @@ new game.PlanetType({
 			[Game.Artefacts.items.ancient_artefact, 50],
 			// red
 			[Game.Artefacts.items.ruby_plasmoid, 50]
-		]
+		];
 	}
-})
+});
 
 new game.PlanetType({
 	engName: 'terran',
@@ -90,9 +90,9 @@ new game.PlanetType({
 			[Game.Artefacts.items.ancient_artefact, 50],
 			// red
 			[Game.Artefacts.items.ruby_plasmoid, 50]
-		]
+		];
 	}
-})
+});
 
 new game.PlanetType({
 	engName: 'ocean',
@@ -134,9 +134,9 @@ new game.PlanetType({
 			[Game.Artefacts.items.ancient_artefact, 50],
 			// red
 			[Game.Artefacts.items.ruby_plasmoid, 50]
-		]
+		];
 	}
-})
+});
 
 new game.PlanetType({
 	engName: 'arid',
@@ -178,9 +178,9 @@ new game.PlanetType({
 			[Game.Artefacts.items.ancient_artefact, 50],
 			// red
 			[Game.Artefacts.items.ruby_plasmoid, 50]
-		]
+		];
 	}
-})
+});
 
 new game.PlanetType({
 	engName: 'tundra',
@@ -222,9 +222,9 @@ new game.PlanetType({
 			[Game.Artefacts.items.ancient_artefact, 50],
 			// red
 			[Game.Artefacts.items.ruby_plasmoid, 50]
-		]
+		];
 	}
-})
+});
 
 new game.PlanetType({
 	engName: 'desert',
@@ -266,9 +266,9 @@ new game.PlanetType({
 			[Game.Artefacts.items.ancient_artefact, 50],
 			// red
 			[Game.Artefacts.items.ruby_plasmoid, 50]
-		]
+		];
 	}
-})
+});
 
 new game.PlanetType({
 	engName: 'arctic',
@@ -310,9 +310,9 @@ new game.PlanetType({
 			[Game.Artefacts.items.ancient_artefact, 50],
 			// red
 			[Game.Artefacts.items.ruby_plasmoid, 50]
-		]
+		];
 	}
-})
+});
 
 new game.PlanetType({
 	engName: 'lava',
@@ -354,9 +354,9 @@ new game.PlanetType({
 			[Game.Artefacts.items.ancient_artefact, 50],
 			// red
 			[Game.Artefacts.items.ruby_plasmoid, 50]
-		]
+		];
 	}
-})
+});
 
 new game.PlanetType({
 	engName: 'barren',
@@ -398,9 +398,9 @@ new game.PlanetType({
 			[Game.Artefacts.items.ancient_artefact, 50],
 			// red
 			[Game.Artefacts.items.ruby_plasmoid, 50]
-		]
+		];
 	}
-})
+});
 
 new game.PlanetType({
 	engName: 'asteroids',
@@ -442,9 +442,9 @@ new game.PlanetType({
 			[Game.Artefacts.items.ancient_artefact, 50],
 			// red
 			[Game.Artefacts.items.ruby_plasmoid, 50]
-		]
+		];
 	}
-})
+});
 
 new game.PlanetType({
 	engName: 'methane',
@@ -486,9 +486,9 @@ new game.PlanetType({
 			[Game.Artefacts.items.ancient_artefact, 50],
 			// red
 			[Game.Artefacts.items.ruby_plasmoid, 50]
-		]
+		];
 	}
-})
+});
 
 new game.PlanetType({
 	engName: 'hydrogen',
@@ -530,9 +530,9 @@ new game.PlanetType({
 			[Game.Artefacts.items.ancient_artefact, 50],
 			// red
 			[Game.Artefacts.items.ruby_plasmoid, 50]
-		]
+		];
 	}
-})
+});
 
 new game.PlanetType({
 	engName: 'helium',
@@ -574,8 +574,8 @@ new game.PlanetType({
 			[Game.Artefacts.items.ancient_artefact, 50],
 			// red
 			[Game.Artefacts.items.ruby_plasmoid, 50]
-		]
+		];
 	}
 });
 
-}
+};
