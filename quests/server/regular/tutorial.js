@@ -179,7 +179,7 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			return Game.Research.has('evolution', 'energy', 5)
+			return Game.Research.has('evolution', 'energy', 5);
 		}
 	}), new game.Quest({
 		engName: 'buildHouse10',
@@ -213,7 +213,7 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			return Game.Building.has('residential', 'metal', 10) && Game.Building.has('residential', 'crystal', 10)
+			return Game.Building.has('residential', 'metal', 10) && Game.Building.has('residential', 'crystal', 10);
 		}
 	}), new game.Quest({
 		engName: 'buildPowerstation10',
@@ -354,7 +354,7 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			return Game.Building.has('residential', 'metal', 15) && Game.Building.has('residential', 'crystal', 15)
+			return Game.Building.has('residential', 'metal', 15) && Game.Building.has('residential', 'crystal', 15);
 		}
 	}), new game.Quest({
 		engName: 'buildPowerstation15',
@@ -512,7 +512,7 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			return Game.Building.has('residential', 'metal', 20) && Game.Building.has('residential', 'crystal', 20)
+			return Game.Building.has('residential', 'metal', 20) && Game.Building.has('residential', 'crystal', 20);
 		}
 	}), new game.Quest({
 		engName: 'buildPowerstation20',
@@ -707,6 +707,6 @@ new game.QuestLine({
 			return Game.Building.has('residential', 'house', 25);
 		}
 	})
-])
+]);
 
-}
+};

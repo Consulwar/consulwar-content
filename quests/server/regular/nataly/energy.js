@@ -366,6 +366,6 @@ new game.QuestLine({
 			return Game.Research.has('evolution', 'energy', 100);
 		}
 	})
-])
+]);
 
-}
+};

@@ -234,4 +234,4 @@ new game.DailyQuest({
 	}
 });
 
-}
+};

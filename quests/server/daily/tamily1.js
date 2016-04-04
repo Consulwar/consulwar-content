@@ -529,4 +529,4 @@ new game.DailyQuest({
 	}
 });
 
-}
+};

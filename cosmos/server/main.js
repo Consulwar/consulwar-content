@@ -164,4 +164,4 @@ Game.Cosmos.ATTACK_MISSIONS = [
 	]
 ];
 
-}
+};
