@@ -4,7 +4,7 @@ new game.QuestLine({
 	who: 'tamily',
 	engName: 'house_building',
 	canStart: function () {
-		return Game.Quest.checkFinished('tutorial')
+		return Game.Quest.checkFinished('tutorial');
 	},
 	finishText: 'Поздравляем! Жилые Комплексы достигли высшей точки развития. И всё благодаря Великому Консулу!'
 }, [
@@ -264,6 +264,6 @@ new game.QuestLine({
 			return Game.Building.has('residential', 'house', 100);
 		}
 	})
-])
+]);
 
-}
+};
