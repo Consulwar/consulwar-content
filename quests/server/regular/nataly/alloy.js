@@ -315,6 +315,6 @@ new game.QuestLine({
 			return Game.Research.has('evolution', 'alloy', 100);
 		}
 	})
-])
+]);
 
-}
+};
