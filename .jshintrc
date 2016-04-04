@@ -1,6 +1,4 @@
 {
-	"strict": true,
-	"node": true,
 	"multistr": true,
 	"laxbreak": true
 }
