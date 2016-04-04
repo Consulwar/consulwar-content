@@ -4,7 +4,7 @@ new game.QuestLine({
 	who: 'tamily',
 	engName: 'entertainment_building',
 	canStart: function () {
-		return Game.Quest.checkFinished('tutorial')
+		return Game.Quest.checkFinished('tutorial');
 	},
 	finishText: 'Поздравляем! Центр Развлечений достиг максимального уровня. Ура Великому Консулу!'
 }, [
@@ -332,6 +332,6 @@ new game.QuestLine({
 			return Game.Building.has('residential', 'entertainment', 100);
 		}
 	})
-])
+]);
 
-}
+};
