@@ -4,7 +4,7 @@ new game.QuestLine({
 	who: 'tamily',
 	engName: 'metal_building',
 	canStart: function () {
-		return Game.Quest.checkFinished('tutorial')
+		return Game.Quest.checkFinished('tutorial');
 	},
 	finishText: 'Поздравляем! Вы достигли максимального уровня Шахты Металла. Слава Консулу!'
 }, [
@@ -281,6 +281,6 @@ new game.QuestLine({
 			return Game.Building.has('residential', 'metal', 100);
 		}
 	})
-])
+]);
 
-}
+};
