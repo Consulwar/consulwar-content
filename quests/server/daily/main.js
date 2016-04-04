@@ -14,4 +14,4 @@ initQuestDailyContent = function() {
 
 	initQuestDailyContentCalibrator1();
 	initQuestDailyContentCalibrator2();
-}
+};
