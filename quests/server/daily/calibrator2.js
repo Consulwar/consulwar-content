@@ -262,4 +262,4 @@ new game.DailyQuest({
 });
 
 
-}
+};
