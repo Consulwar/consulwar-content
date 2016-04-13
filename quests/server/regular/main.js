@@ -4,4 +4,5 @@ initQuestRegularContent = function() {
 	initQuestRegularContentEntertainmentBuilding();
 	initQuestRegularContentHouseBuilding();
 	initQuestRegularContentMetalBuilding();
+	initQuestRegularContentSpaceportBuilding();
 };
