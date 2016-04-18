@@ -1,6 +1,6 @@
 initCosmosContentServerPlanets = function() {
 
-_.extend(Game.Planets.types['jungle'], {
+_.extend(Game.Planets.types.jungle, {
 	chance: 8,
 	sizeMin: 4,
 	sizeMax: 5,
@@ -30,7 +30,7 @@ _.extend(Game.Planets.types['jungle'], {
 	}
 });
 
-_.extend(Game.Planets.types['terran'], {
+_.extend(Game.Planets.types.terran, {
 	chance: 5,
 	sizeMin: 4,
 	sizeMax: 5,
@@ -60,7 +60,7 @@ _.extend(Game.Planets.types['terran'], {
 	}
 });
 
-_.extend(Game.Planets.types['ocean'], {
+_.extend(Game.Planets.types.ocean, {
 	chance: 12,
 	sizeMin: 5,
 	sizeMax: 5,
@@ -90,7 +90,7 @@ _.extend(Game.Planets.types['ocean'], {
 	}
 });
 
-_.extend(Game.Planets.types['arid'], {
+_.extend(Game.Planets.types.arid, {
 	chance: 10,
 	sizeMin: 4,
 	sizeMax: 5,
@@ -120,7 +120,7 @@ _.extend(Game.Planets.types['arid'], {
 	}
 });
 
-_.extend(Game.Planets.types['tundra'], {
+_.extend(Game.Planets.types.tundra, {
 	chance: 10,
 	sizeMin: 4,
 	sizeMax: 5,
@@ -150,7 +150,7 @@ _.extend(Game.Planets.types['tundra'], {
 	}
 });
 
-_.extend(Game.Planets.types['desert'], {
+_.extend(Game.Planets.types.desert, {
 	chance: 12,
 	sizeMin: 4,
 	sizeMax: 5,
@@ -180,7 +180,7 @@ _.extend(Game.Planets.types['desert'], {
 	}
 });
 
-_.extend(Game.Planets.types['arctic'], {
+_.extend(Game.Planets.types.arctic, {
 	chance: 8,
 	sizeMin: 5,
 	sizeMax: 5,
@@ -210,7 +210,7 @@ _.extend(Game.Planets.types['arctic'], {
 	}
 });
 
-_.extend(Game.Planets.types['lava'], {
+_.extend(Game.Planets.types.lava, {
 	chance: 5,
 	sizeMin: 1,
 	sizeMax: 3,
@@ -240,7 +240,7 @@ _.extend(Game.Planets.types['lava'], {
 	}
 });
 
-_.extend(Game.Planets.types['barren'], {
+_.extend(Game.Planets.types.barren, {
 	chance: 10,
 	sizeMin: 4,
 	sizeMax: 5,
@@ -270,7 +270,7 @@ _.extend(Game.Planets.types['barren'], {
 	}
 });
 
-_.extend(Game.Planets.types['methane'], {
+_.extend(Game.Planets.types.methane, {
 	chance: 6,
 	sizeMin: 5,
 	sizeMax: 5,
@@ -300,7 +300,7 @@ _.extend(Game.Planets.types['methane'], {
 	}
 });
 
-_.extend(Game.Planets.types['hydrogen'], {
+_.extend(Game.Planets.types.hydrogen, {
 	chance: 6,
 	sizeMin: 5,
 	sizeMax: 5,
@@ -330,7 +330,7 @@ _.extend(Game.Planets.types['hydrogen'], {
 	}
 });
 
-_.extend(Game.Planets.types['helium'], {
+_.extend(Game.Planets.types.helium, {
 	chance: 6,
 	sizeMin: 5,
 	sizeMax: 5,
@@ -360,7 +360,7 @@ _.extend(Game.Planets.types['helium'], {
 	}
 });
 
-_.extend(Game.Planets.types['asteroids'], {
+_.extend(Game.Planets.types.asteroids, {
 	chance: 2,
 	sizeMin: 1,
 	sizeMax: 3,
