@@ -6,9 +6,7 @@ new game.QuestLine({
 	canStart: function () {
 		return (
        			Game.Quest.checkFinished('tutorial') 
-    	&& Game.Building.has('residential', 'house', 40)
-    	&& Game.Research.has('evolution', 'energy', 30)
-    	&& Game.Research.has('evolution', 'alloy', 25)
+    	&& Game.Building.has('residential', 'house', 20)
 		);
 	},
 	finishText: 'Поздравляем! Космопорт достиг максимального уровня. Ура Великому Консулу!'
