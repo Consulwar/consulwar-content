@@ -5,8 +5,8 @@ new game.QuestLine({
 	engName: 'spaceport_building',
 	canStart: function () {
 		return (
-       			Game.Quest.checkFinished('tutorial') 
-    	&& Game.Research.has('evolution', 'alloy', 20)
+				Game.Quest.checkFinished('tutorial') 
+		&& Game.Research.has('evolution', 'alloy', 20)
 		);
 	},
 	finishText: 'Поздравляем! Торговый Порт достиг максимального уровня. Ура Великому Консулу!'
