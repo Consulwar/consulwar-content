@@ -4,12 +4,12 @@ new game.QuestLine({
 	who: 'tamily',
 	engName: 'spaceport_building',
 	canStart: function () {
-		return [
-			[Game.Quest.checkFinished('tutorial')],
-			[Game.Building.has('residential', 'house', 40)],
-			[Game.Research.has('evolution', 'energy', 30)],
-			[Game.Research.has('evolution', 'alloy', 25)],
-		];
+		return (
+       		Game.Quest.checkFinished('tutorial') 
+    		&& Game.Building.has('residential', 'house', 40)
+    		&& Game.Research.has('evolution', 'energy', 30)
+    		&& Game.Research.has('evolution', 'alloy', 25)
+		);
 	},
 	finishText: 'Поздравляем! Космопорт достиг максимального уровня. Ура Великому Консулу!'
 }, [
