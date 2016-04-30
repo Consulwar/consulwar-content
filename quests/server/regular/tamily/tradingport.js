@@ -2,7 +2,7 @@ initQuestRegularContentTradingportBuilding = function() {
 
 new game.QuestLine({
 	who: 'tamily',
-	engName: 'spaceport_building',
+	engName: 'tradingport_building',
 	canStart: function () {
 		return (
 			   Game.Quest.checkFinished('tutorial') 
