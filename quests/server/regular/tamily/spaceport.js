@@ -4,7 +4,10 @@ new game.QuestLine({
 	who: 'tamily',
 	engName: 'spaceport_building',
 	canStart: function () {
-		return Game.Quest.checkFinished('tutorial');
+		return (
+			   Game.Quest.checkFinished('tutorial') 
+			&& Game.Building.has('residential', 'house', 20)
+		);
 	},
 	finishText: 'Поздравляем! Космопорт достиг максимального уровня. Ура Великому Консулу!'
 }, [
