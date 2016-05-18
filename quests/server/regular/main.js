@@ -8,4 +8,5 @@ initQuestRegularContent = function() {
 	initQuestRegularContentTradingportBuilding();
 	initQuestRegularContentCrystalBuilding();
 	initQuestRegularContentBlackmarketBuilding();
+	initQuestRegularContentPowerstationBuilding();
 };
