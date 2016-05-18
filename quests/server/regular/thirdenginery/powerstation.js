@@ -1,12 +1,15 @@
 initQuestRegularContentPowerstationBuilding = function() {
 
+// TODO: В текстах напутан порядок тегов <p></p>
+//       Надо либо убрать их вообще, либо пофиксить.
+
 new game.QuestLine({
 	who: 'thirdenginery',
 	engName: 'powerstation_building',
 	canStart: function () {
 		return (
 			   Game.Quest.checkFinished('tutorial') 
-			&& Game.Research.has('residential', 'house', 20)
+			&& Game.Building.has('residential', 'house', 20)
 		);
 	},
 	finishText: 'Поздравляем! Электростанция достигла максимального уровня. Слава Великому Консулу!'
