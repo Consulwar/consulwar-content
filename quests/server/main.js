@@ -1,4 +1,4 @@
 initQuestContent = function() {
 	initQuestRegularContent();
 	initQuestDailyContent();
-}
+};
