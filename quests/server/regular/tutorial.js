@@ -281,12 +281,7 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			var user = Meteor.user();
-			var count = Game.SpaceEvents.Collection.find({
-				user_id: user._id,
-				type: Game.SpaceEvents.type.REINFORCEMENT
-			}).count();
-			return (count >= 1) ? true : false;
+			return Game.Statistic.getUserValue('reinforcements.sent.army.ground.fathers') >= 20;
 		}
 	}), new game.Quest({
 		engName: 'buildLaboratory510',
@@ -422,12 +417,7 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			var user = Meteor.user();
-			var count = Game.SpaceEvents.Collection.find({
-				user_id: user._id,
-				type: Game.SpaceEvents.type.REINFORCEMENT
-			}).count();
-			return (count >= 2) ? true : false;
+			return Game.Statistic.getUserValue('reinforcements.sent.army.ground.agmogedcar') >= 5;
 		}
 	}), new game.Quest({
 		engName: 'buildLaboratory15',
