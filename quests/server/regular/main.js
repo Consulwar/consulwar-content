@@ -9,5 +9,6 @@ initQuestRegularContent = function() {
 	initQuestRegularContentCrystalBuilding();
 	initQuestRegularContentBlackmarketBuilding();
 	initQuestRegularContentPowerstationBuilding();
+	initQuestRegularContentLaboratoryBuilding();
 	initQuestRegularContentBarracksBuilding();
 };
