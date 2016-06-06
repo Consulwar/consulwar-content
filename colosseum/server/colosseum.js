@@ -1,13 +1,6 @@
-initColosseumContent = function() {
+initColosseumContentServer = function() {
 
-new game.ColosseumTournament({
-	engName: 'green_ring',
-	name: 'Зеленый ринг',
-	description: 'Шанс получить белый артефакт',
-	level: 1,
-	price: {
-		honor: 500
-	},
+_.extend(Game.Colosseum.tournaments.green_ring, {
 	drop: [{
 		chance: 18,
 		profit: { resources: { weapon_parts: [1, 10] } }
@@ -29,14 +22,7 @@ new game.ColosseumTournament({
 	}]
 });
 
-new game.ColosseumTournament({
-	engName: 'bloody_mess',
-	name: 'Кровавое месиво',
-	description: 'Шанс получить зеленый артефакт',
-	level: 20,
-	price: {
-		honor: 1000
-	},
+_.extend(Game.Colosseum.tournaments.bloody_mess, {
 	drop: [{
 		chance: 15,
 		profit: { resources: { secret_technology: [1, 8] } }
@@ -58,14 +44,7 @@ new game.ColosseumTournament({
 	}]
 });
 
-new game.ColosseumTournament({
-	engName: 'extermination',
-	name: 'Рептилоидное истребление',
-	description: 'Шанс получить синий артефакт',
-	level: 40,
-	price: {
-		honor: 5000
-	},
+_.extend(Game.Colosseum.tournaments.extermination, {
 	drop: [{
 		chance: 11,
 		profit: { resources: { sapphire_plasmoid: [1, 6] } }
@@ -87,14 +66,7 @@ new game.ColosseumTournament({
 	}]
 });
 
-new game.ColosseumTournament({
-	engName: 'mortal_combat',
-	name: 'Смертельная битва',
-	description: 'Шанс получить фиолетовый артефакт',
-	level: 60,
-	price: {
-		honor: 10000
-	},
+_.extend(Game.Colosseum.tournaments.mortal_combat, {
 	drop: [{
 		chance: 8,
 		profit: { resources: { nicolascagium: [1, 4] } }
@@ -116,14 +88,7 @@ new game.ColosseumTournament({
 	}]
 });
 
-new game.ColosseumTournament({
-	engName: 'mad_race',
-	name: 'Бешеная гонка',
-	description: 'Шанс получить оранжевый артефакт',
-	level: 80,
-	price: {
-		honor: 25000
-	},
+_.extend(Game.Colosseum.tournaments.mad_race, {
 	drop: [{
 		chance: 5,
 		profit: { resources: { topaz_plasmoid: [1, 2] } }
@@ -145,14 +110,7 @@ new game.ColosseumTournament({
 	}]
 });
 
-new game.ColosseumTournament({
-	engName: 'fire_dragon',
-	name: 'Огненный дракон',
-	description: 'Шанс получить красный артефакт',
-	level: 100,
-	price: {
-		honor: 50000
-	},
+_.extend(Game.Colosseum.tournaments.fire_dragon, {
 	drop: [{
 		chance: 10,
 		profit: { resources: { ruby_plasmoid: 1 } }
@@ -161,6 +119,5 @@ new game.ColosseumTournament({
 		profit: { resources: { metals: 2000000, crystals: 2000000 } }
 	}]
 });
-
-
+	
 };

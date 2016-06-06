@@ -1,14 +1,6 @@
-initBlackmarketContent = function() {
+initContainersContentServer = function() {
 
-// TODO: Заполнить сундуки!
-
-new game.BlackmarketPack({
-	engName: 'blackmarketPack1',
-	name: 'Четкий сундук',
-	description: 'Описание четкого сундука',
-	price: {
-		credits: 110
-	},
+_.extend(Game.Containers.items.defaultContainer, {
 	drop: [{
 		chance: 20,
 		profit: { units: { fleet: { gammadrone: 1 } } }
