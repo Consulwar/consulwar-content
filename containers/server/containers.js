@@ -1,6 +1,6 @@
-initBlackmarketContentServer = function() {
+initContainersContentServer = function() {
 
-_.extend(Game.Blackmarket.items.blackmarketPack1, {
+_.extend(Game.Containers.items.defaultContainer, {
 	drop: [{
 		chance: 20,
 		profit: { units: { fleet: { gammadrone: 1 } } }
