@@ -1,7 +1,7 @@
 initQuestRegularContentEnergyResearch = function() {
 
 new game.QuestLine({
-	who: 'nataly_verlen',
+	who: 'nataly',
 	engName: 'energy_research',
 	canStart: function () {
 		return (
