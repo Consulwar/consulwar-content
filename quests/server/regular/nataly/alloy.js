@@ -1,7 +1,7 @@
 initQuestRegularContentAlloyResearch = function() {
 
 new game.QuestLine({
-	who: 'nataly_verlen',
+	who: 'nataly',
 	engName: 'alloy_research',
 	canStart: function () {
 		return (
