@@ -1,6 +1,7 @@
 initQuestRegularContent = function() {
 	initQuestRegularContentTutorial();
-	//initQuestRegularContentEnergyResearch();
+	initQuestRegularContentEnergyResearch();
+	initQuestRegularContentAlloyResearch();
 	initQuestRegularContentEntertainmentBuilding();
 	initQuestRegularContentHouseBuilding();
 	initQuestRegularContentMetalBuilding();
