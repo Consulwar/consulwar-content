@@ -1,4 +1,4 @@
-initBuildingsSpecialColosseumContentServer = function() {
+initBuildingSpecialColosseumContentServer = function() {
 
 _.extend(Game.Building.special.Colosseum.tournaments.green_ring, {
 	drop: [{
