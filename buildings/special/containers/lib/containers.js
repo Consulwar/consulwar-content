@@ -1,4 +1,4 @@
-initContainersContent = function() {
+initBuildingsSpecialContainersContent = function() {
 
 new game.Container({
 	engName: 'defaultContainer',

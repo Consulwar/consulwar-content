@@ -1,4 +1,4 @@
-initContainersContentServer = function() {
+initBuildingsSpecialContainersContentServer = function() {
 
 _.extend(Game.Containers.items.defaultContainer, {
 	drop: [{

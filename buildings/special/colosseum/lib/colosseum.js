@@ -1,4 +1,4 @@
-initColosseumContent = function() {
+initBuildingsSpecialColosseumContent = function() {
 
 new game.ColosseumTournament({
 	engName: 'green_ring',
