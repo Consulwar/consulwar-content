@@ -1,6 +1,6 @@
-initColosseumContentServer = function() {
+initBuildingSpecialColosseumContentServer = function() {
 
-_.extend(Game.Colosseum.tournaments.green_ring, {
+_.extend(Game.Building.special.Colosseum.tournaments.green_ring, {
 	drop: [{
 		chance: 18,
 		profit: { resources: { weapon_parts: [1, 10] } }
@@ -22,7 +22,7 @@ _.extend(Game.Colosseum.tournaments.green_ring, {
 	}]
 });
 
-_.extend(Game.Colosseum.tournaments.bloody_mess, {
+_.extend(Game.Building.special.Colosseum.tournaments.bloody_mess, {
 	drop: [{
 		chance: 15,
 		profit: { resources: { secret_technology: [1, 8] } }
@@ -44,7 +44,7 @@ _.extend(Game.Colosseum.tournaments.bloody_mess, {
 	}]
 });
 
-_.extend(Game.Colosseum.tournaments.extermination, {
+_.extend(Game.Building.special.Colosseum.tournaments.extermination, {
 	drop: [{
 		chance: 11,
 		profit: { resources: { sapphire_plasmoid: [1, 6] } }
@@ -66,7 +66,7 @@ _.extend(Game.Colosseum.tournaments.extermination, {
 	}]
 });
 
-_.extend(Game.Colosseum.tournaments.mortal_combat, {
+_.extend(Game.Building.special.Colosseum.tournaments.mortal_combat, {
 	drop: [{
 		chance: 8,
 		profit: { resources: { nicolascagium: [1, 4] } }
@@ -88,7 +88,7 @@ _.extend(Game.Colosseum.tournaments.mortal_combat, {
 	}]
 });
 
-_.extend(Game.Colosseum.tournaments.mad_race, {
+_.extend(Game.Building.special.Colosseum.tournaments.mad_race, {
 	drop: [{
 		chance: 5,
 		profit: { resources: { topaz_plasmoid: [1, 2] } }
@@ -110,7 +110,7 @@ _.extend(Game.Colosseum.tournaments.mad_race, {
 	}]
 });
 
-_.extend(Game.Colosseum.tournaments.fire_dragon, {
+_.extend(Game.Building.special.Colosseum.tournaments.fire_dragon, {
 	drop: [{
 		chance: 10,
 		profit: { resources: { ruby_plasmoid: 1 } }
