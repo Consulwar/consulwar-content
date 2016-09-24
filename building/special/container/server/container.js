@@ -1,6 +1,6 @@
-initContainersContentServer = function() {
+initBuildingSpecialContainerContentServer = function() {
 
-_.extend(Game.Containers.items.defaultContainer, {
+_.extend(Game.Building.special.Container.items.defaultContainer, {
 	drop: [{
 		chance: 20,
 		profit: { units: { fleet: { gammadrone: 1 } } }
