@@ -12,6 +12,7 @@ initQuestDailyContent = function() {
 
 	initQuestDailyContentNataly1();
 	initQuestDailyContentNataly2();
+	initQuestDailyContentNataly3();
 
 	initQuestDailyContentCalibrator1();
 	initQuestDailyContentCalibrator2();
