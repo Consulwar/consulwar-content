@@ -2,6 +2,7 @@ initQuestDailyContent = function() {
 	initQuestDailyContentTamily1();
 	initQuestDailyContentTamily2();
 	initQuestDailyContentTamily3();
+	initQuestDailyContentTamily4();
 
 	initQuestDailyContentThirdenginery1();
 	initQuestDailyContentThirdenginery2();
@@ -11,6 +12,7 @@ initQuestDailyContent = function() {
 
 	initQuestDailyContentNataly1();
 	initQuestDailyContentNataly2();
+	initQuestDailyContentNataly3();
 
 	initQuestDailyContentCalibrator1();
 	initQuestDailyContentCalibrator2();
