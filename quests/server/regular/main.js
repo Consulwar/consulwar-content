@@ -18,4 +18,5 @@ initQuestRegularContent = function() {
 	initQuestRegularContentFactoryBuilding();
 	initQuestRegularContentAirfieldBuilding();
 	initQuestRegularContentShipyardBuilding();
+	initQuestRegularContentDefensecomplexBuilding();
 };
