@@ -12,6 +12,7 @@ initQuestRegularContent = function() {
 	initQuestRegularContentMetalBuilding();
 	initQuestRegularContentSpaceportBuilding();
 	initQuestRegularContentTradingportBuilding();
+	initQuestRegularContentPulsecatcherBuilding();
 	initQuestRegularContentCrystalBuilding();
 	initQuestRegularContentBlackmarketBuilding();
 	initQuestRegularContentPowerstationBuilding();
