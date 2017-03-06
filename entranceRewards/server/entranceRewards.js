@@ -21,4 +21,25 @@ new game.EntranceReward({
 	}
 });
 
+new game.EntranceReward({
+	day: [3, 5],
+	reward: {
+		crystals: 350
+	}
+});
+
+new game.EntranceReward({
+	day: [6, 10],
+	reward: {
+		humans: 40
+	}
+});
+
+new game.EntranceReward({
+	day: 'default',
+	reward: {
+		fathers: 42
+	}
+});
+
 };
