@@ -1,40 +1,27 @@
 initEntranceRewardRanksContent = function() {
 
 new game.EntranceRewardRank({
-	id: 'white',
+	engName: 'white',
 	rewards: [{
-		chance: 50,
-		profit: { resources: { metals: 600 } }
+		chance: 1,
+		profit: { cards: { uncleBuilder: 3 } }
 	}, {
-		chance: 50,
-		profit: { units: { ground: { fathers: [1, 42] } } }
+		chance: 9,
+		profit: { units: { fleet: { gammadrone: 20 } } }
+	}, {
+		chance: 20,
+		profit: { units: { ground: { fathers: 50 } } }
+	}, {
+		chance: 30,
+		profit: { resources: { crystals: 300 } }
+	}, {
+		chance: 40,
+		profit: { resources: { metals: 600 } }
 	}]
 });
 
 new game.EntranceRewardRank({
-	id: 'green',
-	rewards: [{
-		chance: 50,
-		profit: { resources: { metals: 600 } }
-	}, {
-		chance: 50,
-		profit: { units: { ground: { fathers: 42 } } }
-	}]
-});
-
-new game.EntranceRewardRank({
-	id: 'blue',
-	rewards: [{
-		chance: 50,
-		profit: { resources: { metals: 600 } }
-	}, {
-		chance: 50,
-		profit: { units: { ground: { fathers: 42 } } }
-	}]
-});
-
-new game.EntranceRewardRank({
-	id: 'purple',
+	engName: 'green',
 	rewards: [{
 		chance: 50,
 		profit: { resources: { metals: 600 } }
@@ -45,7 +32,7 @@ new game.EntranceRewardRank({
 });
 
 new game.EntranceRewardRank({
-	id: 'orange',
+	engName: 'blue',
 	rewards: [{
 		chance: 50,
 		profit: { resources: { metals: 600 } }
@@ -56,7 +43,29 @@ new game.EntranceRewardRank({
 });
 
 new game.EntranceRewardRank({
-	id: 'red',
+	engName: 'purple',
+	rewards: [{
+		chance: 50,
+		profit: { resources: { metals: 600 } }
+	}, {
+		chance: 50,
+		profit: { units: { ground: { fathers: 42 } } }
+	}]
+});
+
+new game.EntranceRewardRank({
+	engName: 'orange',
+	rewards: [{
+		chance: 50,
+		profit: { resources: { metals: 600 } }
+	}, {
+		chance: 50,
+		profit: { units: { ground: { fathers: 42 } } }
+	}]
+});
+
+new game.EntranceRewardRank({
+	engName: 'red',
 	rewards: [{
 		chance: 50,
 		profit: { resources: { metals: 600 } }
