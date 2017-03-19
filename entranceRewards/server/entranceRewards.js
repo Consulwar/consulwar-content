@@ -2,91 +2,138 @@ initEntranceRewardsContent = function() {
 
 initEntranceRewardRanksContent();
 
-new game.EntranceReward({
-	day: 0,
-	profit: 'white'
-});
-
+// 1 неделя
 new game.EntranceReward({
 	day: 1,
-	profit: {
-		resources: { crystals: 200 }
-	}
+	profit: { resources: { crystals: 10000 } }
 });
 
 new game.EntranceReward({
 	day: 2,
-	profit: {
-		resources: { crystals: 300 }
-	}
+	profit: { resources: { metals: 25000 } }
 });
 
 new game.EntranceReward({
-	day: [3, 5],
-	profit: {
-		units: { ground: { fathers: 42 } }
-	}
+	day: 3,
+	profit: { resources: { emerald_plasmoid: 4 } }
 });
 
 new game.EntranceReward({
-	day: [6, 10],
-	profit: {
-		units: { ground: { horizontalbarman: 42 } }
-	}
+	day: 4,
+	profit: 'white'
 });
 
 new game.EntranceReward({
-	day: [11, 14],
-	profit: {
-		units: { ground: { mothertank: 42 } }
-	}
+	day: 5,
+	profit: { containers: { defaultContainer: 5 } }
 });
 
 new game.EntranceReward({
-	day: [15, 20],
-	profit: {
-		units: { ground: { horizontalbarman: 42 } }
-	}
+	day: 6,
+	profit: 'white'
+});
+
+new game.EntranceReward({
+	day: 7,
+	profit: { units: { ground: { easytank: 1 } } }
+});
+
+// 2 неделя
+new game.EntranceReward({
+	day: 8,
+	profit: { resources: { honor: 80 } }
+});
+
+new game.EntranceReward({
+	day: 9,
+	profit: { units: { defense: { ionbomb: 10 } } }
+});
+
+new game.EntranceReward({
+	day: 10,
+	profit: 'white'
+});
+
+new game.EntranceReward({
+	day: 11,
+	profit: { resources: { credits: 100 } }
+});
+
+new game.EntranceReward({
+	day: 12,
+	profit: 'green'
+});
+
+new game.EntranceReward({
+	day: 13,
+	profit: { units: { fleet: { cruiser: 1 } } }
+});
+
+new game.EntranceReward({
+	day: 14,
+	profit: { units: { ground: { fast: 5 } } }
+});
+
+// 3 неделя
+new game.EntranceReward({
+	day: 15,
+	profit: 'white'
+});
+
+new game.EntranceReward({
+	day: 16,
+	profit: { resources: { silver_plasmoid: 5 } }
+});
+
+new game.EntranceReward({
+	day: 17,
+	profit: { resources: { ship_details: 5 } }
+});
+
+new game.EntranceReward({
+	day: 18,
+	profit: { resources: { meteor_fragments: 5 } }
+});
+
+new game.EntranceReward({
+	day: 19,
+	profit: { resources: { weapon_parts: 5 } }
+});
+
+new game.EntranceReward({
+	day: 20,
+	profit: { resources: { crystal_fragments: 5 } }
 });
 
 new game.EntranceReward({
 	day: 21,
-	profit: {
-		resources: { silver_plasmoid: 50 }
-	}
+	profit: { votePower: 1 }
 });
 
+// 4 неделя
 new game.EntranceReward({
 	day: 22,
-	profit: {
-		resources: { secret_technology: 40 }
-	}
+	profit: 'white'
 });
 
 new game.EntranceReward({
 	day: 23,
-	profit: {
-		resources: { quad_cooler: 30 }
-	}
+	profit: { units: { defense: { turret: 10 } } }
 });
 
 new game.EntranceReward({
 	day: 24,
-	profit: {
-		resources: { keanureevesium: 20 }
-	}
+	profit: 'white'
 });
 
 new game.EntranceReward({
 	day: 25,
-	profit: {
-		resources: { ancient_technology: 12 }
-	}
+	profit: { resources: { emerald_plasmoid: 10 } }
 });
 
 new game.EntranceReward({
 	day: 26,
-	profit: 'white'
+	profit: { units: { fleet: { gammadrone: 50 } } }
 });
 
 new game.EntranceReward({
@@ -96,65 +143,173 @@ new game.EntranceReward({
 
 new game.EntranceReward({
 	day: 28,
-	profit: { resources: { metals: 5000 } }
+	profit: { units: { ground: { psimans: 5 } } }
 });
 
+// 5 неделя
 new game.EntranceReward({
 	day: 29,
-	profit: { resources: { crystals: 8000 } }
+	profit: 'white'
 });
 
 new game.EntranceReward({
 	day: 30,
-	profit: { resources: { humans: 31000 } }
+	profit: { units: { fleet: { carrier: 1 } } }
 });
 
 new game.EntranceReward({
 	day: 31,
-	profit: { resources: { honor: 15000 } }
+	profit: { resources: { credits: 100 } }
 });
 
 new game.EntranceReward({
 	day: 32,
-	profit: { resources: { credits: 531 } }
-});
-
-new game.EntranceReward({
-	day: 33,
-	profit: {
-		units: { fleet: { gammadrone: 15 } }
-	}
-});
-
-new game.EntranceReward({
-	day: 34,
-	profit: {
-		units: { fleet: { flagship: 1500000 } }
-	}
-});
-
-new game.EntranceReward({
-	day: 35,
-	profit: {
-		cards: { uncleBuilder: 3 }
-	}
-});
-
-new game.EntranceReward({
-	day: 36,
-	profit: {
-		houseItems: { tron: { gameofthrones: 1 } }
-	}
-});
-
-new game.EntranceReward({
-	day: [37, 79],
 	profit: 'blue'
 });
 
 new game.EntranceReward({
-	day: 'default',
-	profit: 'purple'
+	day: 33,
+	profit: 'green'
+});
+
+new game.EntranceReward({
+	day: 34,
+	profit: { units: { defense: { laserturret: 5 } } }
+});
+
+new game.EntranceReward({
+	day: 35,
+	profit: { resources: { crystal_fragments: 15 } }
+});
+
+// 6 неделя
+new game.EntranceReward({
+	day: 36,
+	profit: { containers: { defaultContainer: 5 } }
+});
+
+new game.EntranceReward({
+	day: 37,
+	profit: 'white'
+});
+
+new game.EntranceReward({
+	day: 38,
+	profit: { resources: { humans: 50000 } }
+});
+
+new game.EntranceReward({
+	day: 39,
+	profit: { resources: { metals: 100000 } }
+});
+
+new game.EntranceReward({
+	day: 40,
+	profit: { resources: { crystals: 70000 } }
+});
+
+new game.EntranceReward({
+	day: 41,
+	profit: 'white'
+});
+
+new game.EntranceReward({
+	day: 42,
+	profit: { units: { fleet: { dreadnought: 1 } } }
+});
+
+// 7 неделя
+new game.EntranceReward({
+	day: 43,
+	profit: 'white'
+});
+
+new game.EntranceReward({
+	day: 44,
+	profit: 'green'
+});
+
+new game.EntranceReward({
+	day: 45,
+	profit: { units: { ground: { grandmother: 1 } } }
+});
+
+new game.EntranceReward({
+	day: [46, 47],
+	profit: 'white'
+});
+
+new game.EntranceReward({
+	day: 48,
+	profit: { units: { defense: { snipergun: 5 } } }
+});
+
+new game.EntranceReward({
+	day: 49,
+	profit: 'blue'
+});
+
+// 7 неделя
+new game.EntranceReward({
+	day: 50,
+	profit: 'white'
+});
+
+new game.EntranceReward({
+	day: 51,
+	profit: { resources: { credits: 100 } }
+});
+
+new game.EntranceReward({
+	day: 52,
+	profit: { containers: { defaultContainer: 5 } }
+});
+
+new game.EntranceReward({
+	day: 53,
+	profit: 'white'
+});
+
+new game.EntranceReward({
+	day: 54,
+	profit: { units: { fleet: { mirage: 50 } } }
+});
+
+new game.EntranceReward({
+	day: 55,
+	profit: 'green'
+});
+
+new game.EntranceReward({
+	day: 56,
+	profit: { units: { defense: { railcannon: 5 } } }
+});
+
+// 8 неделя
+new game.EntranceReward({
+	day: 57,
+	profit: { resources: { crystal_fragments: 10 } }
+});
+
+new game.EntranceReward({
+	day: 58,
+	profit: { resources: { meteor_fragments: 10 } }
+});
+
+new game.EntranceReward({
+	day: 59,
+	profit: { resources: { honor: 10000 } }
+});
+
+new game.EntranceReward({
+	day: 60,
+	profit: { houseItems: { tron: { czar: 1 } } }
+});
+
+// Новый блок
+new game.EntranceReward({
+	day: [61, 120],
+	profit: 'blue'
 });
 
 };
