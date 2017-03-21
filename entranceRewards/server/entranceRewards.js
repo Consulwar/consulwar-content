@@ -1,4 +1,5 @@
 initEntranceRewardsContent = function() {
+'use strict';
 
 initEntranceRewardRanksContent();
 

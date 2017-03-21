@@ -1,4 +1,5 @@
 initQuestRegularContentBarracksBuilding = function() {
+'use strict';
 
 new game.QuestLine({
 	who: 'thirdenginery',

@@ -1,4 +1,5 @@
 initBuildingSpecialContainerContentServer = function() {
+'use strict';
 
 _.extend(Game.Building.special.Container.items.defaultContainer, {
 	drop: [{

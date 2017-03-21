@@ -1,4 +1,5 @@
 initQuestRegularContentEnergyResearch = function() {
+'use strict';
 
 new game.QuestLine({
 	who: 'nataly',

@@ -1,4 +1,5 @@
 initQuestDailyContentTamily2 = function() {
+'use strict';
 
 new game.DailyQuest({
 	engName: 'CJ',
