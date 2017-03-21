@@ -7,12 +7,14 @@ initQuestRegularContent = function() {
 	initQuestRegularContentDrillResearch();
 	initQuestRegularContentIkeaResearch();
 	initQuestRegularContentAnimalworldResearch();
+	initQuestRegularContentEngineeringResearch();
 	initQuestRegularContentEntertainmentBuilding();
 	initQuestRegularContentHouseBuilding();
 	initQuestRegularContentMetalBuilding();
 	initQuestRegularContentSpaceportBuilding();
 	initQuestRegularContentTradingportBuilding();
 	initQuestRegularContentPulsecatcherBuilding();
+	initQuestRegularContentColosseumBuilding();
 	initQuestRegularContentCrystalBuilding();
 	initQuestRegularContentBlackmarketBuilding();
 	initQuestRegularContentPowerstationBuilding();
