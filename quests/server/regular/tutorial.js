@@ -678,7 +678,7 @@ new game.QuestLine({
 			}
 		},
 		isDone: function() {
-			return !Game.Mail.hasUnread();
+			return true; //Временное решение, пока не понятно, почему не работает: !Game.Mail.hasUnread();
 		}
 	}), new game.Quest({
 		engName: 'buildHouse25',
