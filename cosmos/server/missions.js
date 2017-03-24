@@ -1,4 +1,5 @@
 initCosmosContentServerMissions = function() {
+'use strict';
 
 // Describes what kind of missions are available to spawn at discovered planet
 // Array from 0 to 9 matches remoteness from player base

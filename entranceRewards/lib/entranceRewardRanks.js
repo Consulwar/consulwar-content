@@ -1,4 +1,5 @@
 initEntranceRewardRanksContent = function() {
+'use strict';
 
 new game.EntranceRewardRank({
 	engName: 'white',

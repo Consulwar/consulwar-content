@@ -1,4 +1,5 @@
 initQuestRegularContentPowerstationBuilding = function() {
+'use strict';
 
 // TODO: В текстах напутан порядок тегов <p></p>
 //       Надо либо убрать их вообще, либо пофиксить.

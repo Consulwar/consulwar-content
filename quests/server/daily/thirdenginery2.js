@@ -1,4 +1,5 @@
 initQuestDailyContentThirdenginery2 = function() {
+'use strict';
 
 new game.DailyQuest({
 	engName: 'HeatingSeason',

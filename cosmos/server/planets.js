@@ -1,4 +1,5 @@
 initCosmosContentServerPlanets = function() {
+'use strict';
 
 _.extend(Game.Planets.types.jungle, {
 	chance: 8,

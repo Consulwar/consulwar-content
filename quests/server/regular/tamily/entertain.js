@@ -1,4 +1,5 @@
 initQuestRegularContentEntertainmentBuilding = function() {
+'use strict';
 
 new game.QuestLine({
 	who: 'tamily',
