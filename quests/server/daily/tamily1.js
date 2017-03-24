@@ -1,4 +1,5 @@
 initQuestDailyContentTamily1 = function() {
+'use strict';
 
 new game.DailyQuest({
 	engName: 'Unknown Ship',
