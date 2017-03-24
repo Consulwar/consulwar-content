@@ -313,4 +313,6 @@ new game.EntranceReward({
 	profit: 'blue'
 });
 
+Game.Helpers.deepFreeze(Game.EntranceReward.items);
+
 };
