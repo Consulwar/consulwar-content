@@ -122,4 +122,6 @@ new game.EntranceRewardRank({
 	}]
 });
 
+Game.Helpers.deepFreeze(Game.EntranceReward.ranks);
+
 };
