@@ -1,4 +1,5 @@
 initCosmosContentServerArtefacts = function() {
+'use strict';
 
 // Describes artefacts spread by groups
 // Array from 0 to 9 matches remoteness from player base

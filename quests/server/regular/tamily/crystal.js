@@ -1,4 +1,5 @@
 initQuestRegularContentCrystalBuilding = function() {
+'use strict';
 
 new game.QuestLine({
 	who: 'tamily',

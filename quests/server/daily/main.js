@@ -1,4 +1,6 @@
 initQuestDailyContent = function() {
+	'use strict';
+
 	initQuestDailyContentTamily1();
 	initQuestDailyContentTamily2();
 	initQuestDailyContentTamily3();

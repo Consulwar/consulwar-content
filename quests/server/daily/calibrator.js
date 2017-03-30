@@ -1,4 +1,5 @@
 initQuestDailyContentCalibrator1 = function() {
+'use strict';
 
 new game.DailyQuest({
 	engName: 'Processor',
