@@ -1,4 +1,5 @@
 initQuestDailyContentNataly3 = function() {
+'use strict';
 
 new game.DailyQuest({
 	engName: 'About bacteria',

@@ -1,4 +1,5 @@
 initEntranceRewardsContent = function() {
+'use strict';
 
 initEntranceRewardRanksContent();
 
@@ -311,5 +312,7 @@ new game.EntranceReward({
 	day: [61, 120],
 	profit: 'blue'
 });
+
+Game.Helpers.deepFreeze(Game.EntranceReward.items);
 
 };

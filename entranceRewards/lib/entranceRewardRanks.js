@@ -1,4 +1,5 @@
 initEntranceRewardRanksContent = function() {
+'use strict';
 
 new game.EntranceRewardRank({
 	engName: 'white',
@@ -120,5 +121,7 @@ new game.EntranceRewardRank({
 		profit: { resources: { metals: 25000 } }
 	}]
 });
+
+Game.Helpers.deepFreeze(Game.EntranceReward.ranks);
 
 };

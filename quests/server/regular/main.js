@@ -1,4 +1,6 @@
 initQuestRegularContent = function() {
+	'use strict';
+
 	initQuestRegularContentTutorial();
 	initQuestRegularContentEnergyResearch();
 	initQuestRegularContentAlloyResearch();

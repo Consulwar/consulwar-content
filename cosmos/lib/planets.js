@@ -1,4 +1,5 @@
 initCosmosContent = function() {
+'use strict';
 
 new game.PlanetType({
 	engName: 'jungle',

@@ -1,4 +1,5 @@
 initQuestRegularContentTutorial = function() {
+'use strict';
 
 // TODO: Когда будете настраивать цепочки квестов, используйте функцию
 //       Game.Quest.checkFinished('tutorial')

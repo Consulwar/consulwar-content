@@ -1,4 +1,5 @@
 initBuildingSpecialContainerContent = function() {
+'use strict';
 
 new game.Container({
 	engName: 'defaultContainer',
