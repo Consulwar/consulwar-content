@@ -25,5 +25,6 @@ initQuestRegularContent = function() {
 	initQuestRegularContentFactoryBuilding();
 	initQuestRegularContentAirfieldBuilding();
 	initQuestRegularContentShipyardBuilding();
+	initQuestRegularContentGatesBuilding();
 	initQuestRegularContentDefensecomplexBuilding();
 };
