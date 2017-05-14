@@ -5,6 +5,7 @@ initQuestDailyContent = function() {
 	initQuestDailyContentTamily2();
 	initQuestDailyContentTamily3();
 	initQuestDailyContentTamily4();
+	initQuestDailyContentTamily5();
 
 	initQuestDailyContentThirdenginery1();
 	initQuestDailyContentThirdenginery2();
