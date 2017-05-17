@@ -304,7 +304,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
 	day: 60,
-	profit: { houseItems: { tron: { czar: 1 } } }
+	profit: { houseItems: { tron: { stool: 1 } } }
 });
 
 // Новый блок
