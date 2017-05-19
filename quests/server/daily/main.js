@@ -9,6 +9,7 @@ initQuestDailyContent = function() {
 
 	initQuestDailyContentThirdenginery1();
 	initQuestDailyContentThirdenginery2();
+	initQuestDailyContentThirdenginery3();
 
 	initQuestDailyContentMechanic1();
 	initQuestDailyContentMechanic2();
