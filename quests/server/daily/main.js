@@ -13,6 +13,7 @@ initQuestDailyContent = function() {
 
 	initQuestDailyContentMechanic1();
 	initQuestDailyContentMechanic2();
+	initQuestDailyContentMechanic3();
 
 	initQuestDailyContentNataly1();
 	initQuestDailyContentNataly2();
