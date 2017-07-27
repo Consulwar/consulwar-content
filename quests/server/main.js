@@ -1,9 +1,9 @@
 initQuestContent = function() {
-	'use strict';
+  'use strict';
 
-	initQuestRegularContent();
-	initQuestDailyContent();
+  initQuestRegularContent();
+  initQuestDailyContent();
 
-	Game.Helpers.deepFreeze(Game.Quest.regularQuests);
-	Game.Helpers.deepFreeze(Game.Quest.dailyQuests);
+  Game.Helpers.deepFreeze(Game.Quest.regularQuests);
+  Game.Helpers.deepFreeze(Game.Quest.dailyQuests);
 };
