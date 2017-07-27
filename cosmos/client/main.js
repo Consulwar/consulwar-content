@@ -1,5 +1,6 @@
 initCosmosContentClient = function () {
-	'use strict';
+  'use strict';
 
-	Game.Helpers.deepFreeze(Game.Planets.types);
+  Game.Helpers.deepFreeze(Game.Planets.types);
 };
+
