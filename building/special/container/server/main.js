@@ -1,7 +1,7 @@
 initBuildingSpecialContainerContentServerMain = function() {
-	'use strict';
+  'use strict';
 
-	initBuildingSpecialContainerContentServer();
+  initBuildingSpecialContainerContentServer();
 
-	Game.Helpers.deepFreeze(Game.Building.special.Container);
+  Game.Helpers.deepFreeze(Game.Building.special.Container);
 };

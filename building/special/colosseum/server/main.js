@@ -1,7 +1,7 @@
 initBuildingSpecialColosseumContentServerMain = function() {
-	'use strict';
+  'use strict';
 
-	initBuildingSpecialColosseumContentServer();
+  initBuildingSpecialColosseumContentServer();
 
-	Game.Helpers.deepFreeze(Game.Building.special.Colosseum);
+  Game.Helpers.deepFreeze(Game.Building.special.Colosseum);
 };
