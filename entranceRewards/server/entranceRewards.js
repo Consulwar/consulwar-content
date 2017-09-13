@@ -843,7 +843,12 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 180,
-  profit: { houseItems: { room: { gameofthrones: 1 } } }
+  profit: { houseItems: { room: { stable: 1 } } }
+});
+
+new game.EntranceReward({
+  day: [181, 240],
+  profit: 'blue'
 });
 
 Game.Helpers.deepFreeze(Game.EntranceReward.items);
