@@ -1,31 +1,9 @@
-initQuestRegularContent = function() {
-  'use strict';
+import questLines from '/imports/content/Quest/Regular/server';
 
+initQuestRegularContent = function () {
   initQuestRegularContentTutorial();
-  initQuestRegularContentEnergyResearch();
-  initQuestRegularContentAlloyResearch();
-  initQuestRegularContentScienceResearch();
-  initQuestRegularContentCrystallizationResearch();
-  initQuestRegularContentDrillResearch();
-  initQuestRegularContentIkeaResearch();
-  initQuestRegularContentAnimalworldResearch();
-  initQuestRegularContentNanotechnologyResearch();
-  initQuestRegularContentEngineeringResearch();
-  initQuestRegularContentEntertainmentBuilding();
-  initQuestRegularContentHouseBuilding();
-  initQuestRegularContentMetalBuilding();
-  initQuestRegularContentSpaceportBuilding();
-  initQuestRegularContentTradingportBuilding();
-  initQuestRegularContentPulsecatcherBuilding();
-  initQuestRegularContentColosseumBuilding();
-  initQuestRegularContentCrystalBuilding();
-  initQuestRegularContentBlackmarketBuilding();
-  initQuestRegularContentPowerstationBuilding();
-  initQuestRegularContentLaboratoryBuilding();
-  initQuestRegularContentBarracksBuilding();
-  initQuestRegularContentFactoryBuilding();
-  initQuestRegularContentAirfieldBuilding();
-  initQuestRegularContentShipyardBuilding();
-  initQuestRegularContentGatesBuilding();
-  initQuestRegularContentDefensecomplexBuilding();
+
+  _(questLines).keys().forEach((id) => {
+    new game.QuestLine(questLines[id]);
+  });
 };
