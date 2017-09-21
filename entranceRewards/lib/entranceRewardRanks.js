@@ -14,10 +14,10 @@ new game.EntranceRewardRank({
     profit: { units: { ground: { fathers: 10 } } }
   }, {
     chance: 30,
-    profit: { resources: { crystals: 3000 } }
+    profit: { resources: { crystals: 30 } }
   }, {
     chance: 40,
-    profit: { resources: { metals: 6000 } }
+    profit: { resources: { metals: 60 } }
   }]
 });
 
@@ -34,10 +34,10 @@ new game.EntranceRewardRank({
     profit: { units: { ground: { agmogedcar: 10 } } }
   }, {
     chance: 30,
-    profit: { resources: { crystals: 10000 } }
+    profit: { resources: { crystals: 100 } }
   }, {
     chance: 30,
-    profit: { resources: { metals: 25000 } }
+    profit: { resources: { metals: 250 } }
   }]
 });
 
@@ -54,10 +54,10 @@ new game.EntranceRewardRank({
     profit: { units: { fleet: { mirage: 80 } } }
   }, {
     chance: 20,
-    profit: { resources: { crystals: 40000 } }
+    profit: { resources: { crystals: 400 } }
   }, {
     chance: 60,
-    profit: { resources: { metals: 75000 } }
+    profit: { resources: { metals: 750 } }
   }]
 });
 
@@ -74,10 +74,10 @@ new game.EntranceRewardRank({
     profit: { units: { defense: { bomb: 1500 } } }
   }, {
     chance: 30,
-    profit: { resources: { crystals: 120000 } }
+    profit: { resources: { crystals: 1200 } }
   }, {
     chance: 35,
-    profit: { resources: { metals: 250000 } }
+    profit: { resources: { metals: 2500 } }
   }]
 });
 
@@ -95,10 +95,10 @@ new game.EntranceRewardRank({
     profit: { units: { ground: { agmogedcar: 10 } } }
   }, {
     chance: 30,
-    profit: { resources: { crystals: 10000 } }
+    profit: { resources: { crystals: 100 } }
   }, {
     chance: 30,
-    profit: { resources: { metals: 25000 } }
+    profit: { resources: { metals: 250 } }
   }]
 });
 
@@ -115,10 +115,10 @@ new game.EntranceRewardRank({
     profit: { units: { ground: { agmogedcar: 10 } } }
   }, {
     chance: 30,
-    profit: { resources: { crystals: 10000 } }
+    profit: { resources: { crystals: 100 } }
   }, {
     chance: 30,
-    profit: { resources: { metals: 25000 } }
+    profit: { resources: { metals: 250 } }
   }]
 });
 
