@@ -6,12 +6,12 @@ initEntranceRewardRanksContent();
 // 1 неделя
 new game.EntranceReward({
   day: 1,
-  profit: { resources: { crystals: 10000 } }
+  profit: { resources: { crystals: 100 } }
 });
 
 new game.EntranceReward({
   day: 2,
-  profit: { resources: { metals: 25000 } }
+  profit: { resources: { metals: 250 } }
 });
 
 new game.EntranceReward({
@@ -201,12 +201,12 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 39,
-  profit: { resources: { metals: 100000 } }
+  profit: { resources: { metals: 1000 } }
 });
 
 new game.EntranceReward({
   day: 40,
-  profit: { resources: { crystals: 70000 } }
+  profit: { resources: { crystals: 700 } }
 });
 
 new game.EntranceReward({
@@ -299,7 +299,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 59,
-  profit: { resources: { honor: 10000 } }
+  profit: { resources: { honor: 1000 } }
 });
 
 new game.EntranceReward({
@@ -310,12 +310,12 @@ new game.EntranceReward({
 // Новый блок
 new game.EntranceReward({
   day: 61,
-  profit: { resources: { crystals: 50000 } }
+  profit: { resources: { crystals: 500 } }
 });
 
 new game.EntranceReward({
   day: 62,
-  profit: { resources: { metals: 30000 } }
+  profit: { resources: { metals: 300 } }
 });
 
 new game.EntranceReward({
@@ -475,12 +475,12 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 97,
-  profit: { resources: { crystals: 80000 } }
+  profit: { resources: { crystals: 800 } }
 });
 
 new game.EntranceReward({
   day: 98,
-  profit: { resources: { metals: 60000 } }
+  profit: { resources: { metals: 600 } }
 });
 
 // 15 неделя
@@ -570,12 +570,12 @@ new game.EntranceReward({
 // Новый блок
 new game.EntranceReward({
   day: 121,
-  profit: { resources: { crystals: 80000 } }
+  profit: { resources: { crystals: 800 } }
 });
 
 new game.EntranceReward({
   day: 122,
-  profit: { resources: { metals: 60000 } }
+  profit: { resources: { metals: 600 } }
 });
 
 new game.EntranceReward({
@@ -740,12 +740,12 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 156,
-  profit: { resources: { metals: 120000 } }
+  profit: { resources: { metals: 1200 } }
 });
 
 new game.EntranceReward({
   day: 157,
-  profit: { resources: { crystals: 150000 } }
+  profit: { resources: { crystals: 1500 } }
 });
 
 new game.EntranceReward({
