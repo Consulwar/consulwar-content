@@ -196,7 +196,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 38,
-  profit: { resources: { humans: 50000 } }
+  profit: { resources: { humans: 1000 } }
 });
 
 new game.EntranceReward({
@@ -470,7 +470,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 96,
-  profit: { resources: { humans: 120000 } }
+  profit: { resources: { humans: 2400 } }
 });
 
 new game.EntranceReward({
@@ -735,7 +735,7 @@ new game.EntranceReward({
 // 23 неделя
 new game.EntranceReward({
   day: 155,
-  profit: { resources: { humans: 200000 } }
+  profit: { resources: { humans: 4000 } }
 });
 
 new game.EntranceReward({
@@ -846,8 +846,124 @@ new game.EntranceReward({
   profit: { houseItems: { room: { stable: 1 } } }
 });
 
+// Новый блок
 new game.EntranceReward({
-  day: [181, 240],
+  day: [181, 182],
+  profit: 'blue'
+});
+
+// 27 неделя
+new game.EntranceReward({
+  day: [183, 189],
+  profit: 'blue'
+});
+
+// 28 неделя
+new game.EntranceReward({
+  day: 190,
+  profit: 'blue'
+});
+
+new game.EntranceReward({
+  day: 191,
+  profit: { resources: { credits: 100 } }
+});
+
+new game.EntranceReward({
+  day: [192, 195],
+  profit: 'blue'
+});
+
+new game.EntranceReward({
+  day: 196,
+  profit: { resources: { amethyst_plasmoid: 5 } }
+});
+
+// 29 неделя
+new game.EntranceReward({
+  day: 197,
+  profit: { resources: { garyoldmanium: 5 } }
+});
+
+new game.EntranceReward({
+  day: 198,
+  profit: { resources: { keanureevesium: 5 } }
+});
+
+new game.EntranceReward({
+  day: 199,
+  profit: { resources: { nicolascagium: 5 } }
+});
+
+new game.EntranceReward({
+  day: 200,
+  profit: { resources: { jimcarrium: 5 } }
+});
+
+new game.EntranceReward({
+  day: 201,
+  profit: { votePower: 1 }
+});
+
+new game.EntranceReward({
+  day: [202, 203],
+  profit: 'blue'
+});
+
+// 30 неделя
+new game.EntranceReward({
+  day: [204, 210],
+  profit: 'blue'
+});
+
+// 31 неделя
+new game.EntranceReward({
+  day: 211,
+  profit: { resources: { credits: 100 } }
+});
+
+new game.EntranceReward({
+  day: [212, 217],
+  profit: 'blue'
+});
+
+// 32 неделя
+new game.EntranceReward({
+  day: [218, 225],
+  profit: 'blue'
+});
+
+// 33 неделя
+new game.EntranceReward({
+  day: [226, 230],
+  profit: 'blue'
+});
+
+new game.EntranceReward({
+  day: 231,
+  profit: { resources: { credits: 100 } }
+});
+
+new game.EntranceReward({
+  day: 232,
+  profit: 'blue'
+});
+
+// 34 неделя
+new game.EntranceReward({
+  day: [233, 239],
+  profit: 'blue'
+});
+
+// 35 неделя
+
+new game.EntranceReward({
+  day: 240,
+  profit: { houseItems: { room: { stable: 1 } } }
+});
+
+new game.EntranceReward({
+  day: [241, 300],
   profit: 'blue'
 });
 
