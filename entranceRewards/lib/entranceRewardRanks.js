@@ -5,10 +5,10 @@ new game.EntranceRewardRank({
   engName: 'white',
   rewards: [{
     chance: 1,
-    profit: { units: { fleet: { frigate: 10 } } }
+    profit: { units: { fleet: { frigate: 1 } } }
   }, {
     chance: 9,
-    profit: { units: { fleet: { gammadrone: 25 } } }
+    profit: { units: { fleet: { gammadrone: 8 } } }
   }, {
     chance: 20,
     profit: { units: { ground: { fathers: 10 } } }
@@ -28,7 +28,7 @@ new game.EntranceRewardRank({
     profit: { units: { ground: { mothertank: 1 } } }
   }, {
     chance: 19,
-    profit: { units: { fleet: { wasp: 50 } } }
+    profit: { units: { fleet: { wasp: 12 } } }
   }, {
     chance: 20,
     profit: { units: { ground: { agmogedcar: 10 } } }
@@ -48,10 +48,10 @@ new game.EntranceRewardRank({
     profit: { units: { ground: { relax: 1 } } }
   }, {
     chance: 3,
-    profit: { units: { fleet: { cruiser: 40 } } }
+    profit: { units: { fleet: { cruiser: 1 } } }
   }, {
     chance: 15,
-    profit: { units: { fleet: { mirage: 80 } } }
+    profit: { units: { fleet: { mirage: 16 } } }
   }, {
     chance: 20,
     profit: { resources: { crystals: 400 } }
@@ -65,13 +65,13 @@ new game.EntranceRewardRank({
   engName: 'purple',
   rewards: [{
     chance: 1,
-    profit: { units: { fleet: { dreadnought: 50 } } }
+    profit: { units: { fleet: { battleship: 1 } } }
   }, {
     chance: 9,
     profit: { units: { ground: { hbhr: 2 } } }
   }, {
     chance: 25,
-    profit: { units: { defense: { bomb: 1500 } } }
+    profit: { units: { defense: { bomb: 375 } } }
   }, {
     chance: 30,
     profit: { resources: { crystals: 1200 } }
@@ -89,7 +89,7 @@ new game.EntranceRewardRank({
     profit: { units: { ground: { mothertank: 1 } } }
   }, {
     chance: 19,
-    profit: { units: { fleet: { wasp: 50 } } }
+    profit: { units: { fleet: { wasp: 12 } } }
   }, {
     chance: 20,
     profit: { units: { ground: { agmogedcar: 10 } } }
@@ -109,7 +109,7 @@ new game.EntranceRewardRank({
     profit: { units: { ground: { mothertank: 1 } } }
   }, {
     chance: 19,
-    profit: { units: { fleet: { wasp: 50 } } }
+    profit: { units: { fleet: { wasp: 12 } } }
   }, {
     chance: 20,
     profit: { units: { ground: { agmogedcar: 10 } } }
