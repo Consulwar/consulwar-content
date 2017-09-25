@@ -67,7 +67,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 13,
-  profit: { units: { fleet: { cruiser: 1 } } }
+  profit: { units: { fleet: { mirage: 5 } } }
 });
 
 new game.EntranceReward({
@@ -119,7 +119,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 23,
-  profit: { units: { defense: { turret: 10 } } }
+  profit: { units: { defense: { turret: 5 } } }
 });
 
 new game.EntranceReward({
@@ -134,7 +134,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 26,
-  profit: { units: { fleet: { gammadrone: 50 } } }
+  profit: { units: { fleet: { gammadrone: 10 } } }
 });
 
 new game.EntranceReward({
@@ -155,7 +155,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 30,
-  profit: { units: { fleet: { carrier: 1 } } }
+  profit: { units: { fleet: { wasp: 25 } } }
 });
 
 new game.EntranceReward({
@@ -216,7 +216,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 42,
-  profit: { units: { fleet: { dreadnought: 1 } } }
+  profit: { units: { fleet: { frigate: 1 } } }
 });
 
 // 7 неделя
@@ -242,7 +242,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 48,
-  profit: { units: { defense: { snipergun: 5 } } }
+  profit: { units: { defense: { snipergun: 1 } } }
 });
 
 new game.EntranceReward({
@@ -273,7 +273,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 54,
-  profit: { units: { fleet: { mirage: 50 } } }
+  profit: { units: { fleet: { mirage: 10 } } }
 });
 
 new game.EntranceReward({
@@ -283,7 +283,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 56,
-  profit: { units: { defense: { railcannon: 5 } } }
+  profit: { units: { defense: { railcannon: 1 } } }
 });
 
 // 9 неделя
@@ -434,7 +434,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 86,
-  profit: { units: { fleet: { gammadrone: 250 } } }
+  profit: { units: { fleet: { gammadrone: 50 } } }
 });
 
 new game.EntranceReward({
@@ -501,7 +501,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 102,
-  profit: { units: { fleet: { railgun: 1 } } }
+  profit: { units: { fleet: { frigate: 1 } } }
 });
 
 new game.EntranceReward({
@@ -553,7 +553,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 116,
-  profit: { units: { fleet: { frigate: 25 } } }
+  profit: { units: { fleet: { frigate: 1 } } }
 });
 
 new game.EntranceReward({
@@ -683,7 +683,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 145,
-  profit: { units: { fleet: { carrier: 2 } } }
+  profit: { units: { fleet: { mirage: 25 } } }
 });
 
 new game.EntranceReward({
@@ -776,7 +776,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 164,
-  profit: { units: { fleet: { battleship: 4 } } }
+  profit: { units: { fleet: { frigate: 2 } } }
 });
 
 new game.EntranceReward({
@@ -786,7 +786,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 167,
-  profit: { units: { defense: { tyrant: 2 } } }
+  profit: { units: { defense: { snipergun: 2 } } }
 });
 
 new game.EntranceReward({
@@ -833,7 +833,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 177,
-  profit: { units: { fleet: { dreadnought: 5 } } }
+  profit: { units: { fleet: { cruiser: 1 } } }
 });
 
 new game.EntranceReward({
