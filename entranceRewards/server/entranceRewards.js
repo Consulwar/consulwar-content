@@ -956,14 +956,132 @@ new game.EntranceReward({
 });
 
 // 35 неделя
-
 new game.EntranceReward({
   day: 240,
-  profit: { houseItems: { room: { stable: 1 } } }
+  profit: { personSkin: { 'Person/Tamily': { underwear: 1 } } },
+});
+
+// Новый блок
+new game.EntranceReward({
+  day: [241, 246],
+  profit: 'blue'
+});
+
+// 36 неделя
+new game.EntranceReward({
+  day: [247, 250],
+  profit: 'blue'
 });
 
 new game.EntranceReward({
-  day: [241, 300],
+  day: 251,
+  profit: { resources: { credits: 100 } }
+});
+
+new game.EntranceReward({
+  day: [252, 253],
+  profit: 'blue'
+});
+
+// 37 неделя
+new game.EntranceReward({
+  day: [254, 255],
+  profit: 'blue'
+});
+
+new game.EntranceReward({
+  day: 256,
+  profit: { resources: { topaz_plasmoid: 5 } }
+});
+
+new game.EntranceReward({
+  day: 257,
+  profit: { resources: { ancient_artefact: 5 } }
+});
+
+new game.EntranceReward({
+  day: 258,
+  profit: { resources: { ancient_technology: 5 } }
+});
+
+new game.EntranceReward({
+  day: 259,
+  profit: { resources: { ancient_knowledge: 5 } }
+});
+
+new game.EntranceReward({
+  day: 260,
+  profit: { resources: { ancient_scheme: 5 } }
+});
+
+// 38 неделя
+new game.EntranceReward({
+  day: 261,
+  profit: { votePower: 1 }
+});
+
+new game.EntranceReward({
+  day: [262, 268],
+  profit: 'blue'
+});
+
+// 39 неделя
+new game.EntranceReward({
+  day: [269, 270],
+  profit: 'blue'
+});
+
+new game.EntranceReward({
+  day: 271,
+  profit: { resources: { credits: 100 } }
+});
+
+new game.EntranceReward({
+  day: [272, 275],
+  profit: 'blue'
+});
+
+// 40 неделя
+new game.EntranceReward({
+  day: [276, 282],
+  profit: 'blue'
+});
+
+// 41 неделя
+new game.EntranceReward({
+  day: [283, 289],
+  profit: 'blue'
+});
+
+// 42 неделя
+new game.EntranceReward({
+  day: 290,
+  profit: 'blue'
+});
+
+new game.EntranceReward({
+  day: 291,
+  profit: { resources: { credits: 100 } }
+});
+
+new game.EntranceReward({
+  day: [292, 295],
+  profit: 'blue'
+});
+
+// 43 неделя
+new game.EntranceReward({
+  day: [296, 299],
+  profit: 'blue'
+});
+
+new game.EntranceReward({
+  day: 300,
+  profit: { personSkin: { 'Person/Tamily': { underwear: 1 } } },
+});
+
+new game.EntranceReward({
+  day: [301, 360],
   profit: 'blue'
 });
 
