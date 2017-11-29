@@ -11,7 +11,7 @@ new game.EntranceRewardRank({
     profit: { units: { fleet: { gammadrone: 8 } } }
   }, {
     chance: 20,
-    profit: { units: { ground: { fathers: 10 } } }
+    profit: { units: { ground: { fathers: 3 } } }
   }, {
     chance: 30,
     profit: { resources: { crystals: 30 } }
@@ -25,13 +25,13 @@ new game.EntranceRewardRank({
   engName: 'green',
   rewards: [{
     chance: 1,
-    profit: { units: { ground: { mothertank: 1 } } }
+    profit: { units: { ground: { easytank: 1 } } }
   }, {
     chance: 19,
     profit: { units: { fleet: { wasp: 12 } } }
   }, {
     chance: 20,
-    profit: { units: { ground: { agmogedcar: 10 } } }
+    profit: { units: { ground: { agmogedcar: 1 } } }
   }, {
     chance: 30,
     profit: { resources: { crystals: 100 } }
@@ -45,7 +45,7 @@ new game.EntranceRewardRank({
   engName: 'blue',
   rewards: [{
     chance: 2,
-    profit: { units: { ground: { relax: 1 } } }
+    profit: { units: { ground: { prickartillery: 1 } } }
   }, {
     chance: 3,
     profit: { units: { fleet: { cruiser: 1 } } }
@@ -68,7 +68,7 @@ new game.EntranceRewardRank({
     profit: { units: { fleet: { battleship: 1 } } }
   }, {
     chance: 9,
-    profit: { units: { ground: { hbhr: 2 } } }
+    profit: { units: { ground: { mothertank: 1 } } }
   }, {
     chance: 25,
     profit: { units: { defense: { bomb: 375 } } }
@@ -86,13 +86,13 @@ new game.EntranceRewardRank({
   engName: 'orange',
   rewards: [{
     chance: 1,
-    profit: { units: { ground: { mothertank: 1 } } }
+    profit: { units: { ground: { easytank: 1 } } }
   }, {
     chance: 19,
     profit: { units: { fleet: { wasp: 12 } } }
   }, {
     chance: 20,
-    profit: { units: { ground: { agmogedcar: 10 } } }
+    profit: { units: { ground: { agmogedcar: 1 } } }
   }, {
     chance: 30,
     profit: { resources: { crystals: 100 } }
@@ -106,13 +106,13 @@ new game.EntranceRewardRank({
   engName: 'red',
   rewards: [{
     chance: 1,
-    profit: { units: { ground: { mothertank: 1 } } }
+    profit: { units: { ground: { easytank: 1 } } }
   }, {
     chance: 19,
     profit: { units: { fleet: { wasp: 12 } } }
   }, {
     chance: 20,
-    profit: { units: { ground: { agmogedcar: 10 } } }
+    profit: { units: { ground: { agmogedcar: 1 } } }
   }, {
     chance: 30,
     profit: { resources: { crystals: 100 } }
