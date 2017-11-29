@@ -36,7 +36,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 7,
-  profit: { units: { ground: { easytank: 1 } } }
+  profit: { units: { ground: { agmogedcar: 1 } } }
 });
 
 // 2 неделя
@@ -72,7 +72,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 14,
-  profit: { units: { ground: { fast: 5 } } }
+  profit: { units: { ground: { fast: 1 } } }
 });
 
 // 3 неделя
@@ -144,7 +144,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 28,
-  profit: { units: { ground: { psimans: 5 } } }
+  profit: { units: { ground: { horizontalbarman: 5 } } }
 });
 
 // 5 неделя
@@ -232,7 +232,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 45,
-  profit: { units: { ground: { grandmother: 1 } } }
+  profit: { units: { ground: { fast: 1 } } }
 });
 
 new game.EntranceReward({
@@ -418,7 +418,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 83,
-  profit: { units: { ground: { grandmother: 2 } } }
+  profit: { units: { ground: { grandmother: 1 } } }
 });
 
 new game.EntranceReward({
@@ -678,7 +678,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 144,
-  profit: { units: { ground: { prickartillery: 3 } } }
+  profit: { units: { ground: { prickartillery: 1 } } }
 });
 
 new game.EntranceReward({
