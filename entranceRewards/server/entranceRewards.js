@@ -26,7 +26,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 5,
-  profit: { containers: { defaultContainer: 5 } }
+  profit: { containers: { 'Container/Fleet/Green': 5 } }
 });
 
 new game.EntranceReward({
@@ -186,7 +186,7 @@ new game.EntranceReward({
 // 6 неделя
 new game.EntranceReward({
   day: 36,
-  profit: { containers: { defaultContainer: 5 } }
+  profit: { containers: { 'Container/Fleet/Green': 5 } }
 });
 
 new game.EntranceReward({
@@ -263,7 +263,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 52,
-  profit: { containers: { defaultContainer: 5 } }
+  profit: { containers: { 'Container/Fleet/Green': 5 } }
 });
 
 new game.EntranceReward({
@@ -341,7 +341,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 67,
-  profit: { containers: { defaultContainer: 5 } }
+  profit: { containers: { 'Container/Fleet/Green': 5 } }
 });
 
 new game.EntranceReward({
@@ -491,7 +491,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 100,
-  profit: { containers: { defaultContainer: 5 } }
+  profit: { containers: { 'Container/Fleet/Green': 5 } }
 });
 
 new game.EntranceReward({
@@ -522,7 +522,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 107,
-  profit: { containers: { defaultContainer: 5 } }
+  profit: { containers: { 'Container/Fleet/Green': 5 } }
 });
 
 new game.EntranceReward({
@@ -601,7 +601,7 @@ new game.EntranceReward({
 // 19 неделя
 new game.EntranceReward({
   day: 127,
-  profit: { containers: { defaultContainer: 5 } }
+  profit: { containers: { 'Container/Fleet/Green': 5 } }
 });
 
 new game.EntranceReward({
@@ -724,7 +724,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 153,
-  profit: { containers: { defaultContainer: 5 } }
+  profit: { containers: { 'Container/Fleet/Green': 5 } }
 });
 
 new game.EntranceReward({
@@ -817,7 +817,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 174,
-  profit: { containers: { defaultContainer: 5 } }
+  profit: { containers: { 'Container/Fleet/Green': 5 } }
 });
 
 new game.EntranceReward({
