@@ -1,3 +1,7 @@
+import Space from '/imports/modules/Space/lib/space';
+import FlightEvents from '/imports/modules/Space/lib/flightEvents';
+import { Meteor } from "meteor/meteor";
+
 initQuestRegularContentTutorial = function() {
 'use strict';
 
@@ -832,10 +836,10 @@ new game.QuestLine({
     },
     isDone: function() {
       var user = Meteor.user();
-      return Game.SpaceEvents.Collection.findOne({
-        user_id: user._id,
-        type: Game.SpaceEvents.type.SHIP,
-        'info.isHumans': true
+      return Space.collection.findOne({
+        type: FlightEvents.EVENT_TYPE,
+        'data.userId': user._id,
+        'data.isHumans': true,
       }) || false;
     }
   }, false), new game.Quest({
