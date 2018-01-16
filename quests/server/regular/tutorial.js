@@ -1,6 +1,6 @@
+import { Meteor } from 'meteor/meteor';
 import Space from '/imports/modules/Space/lib/space';
 import FlightEvents from '/imports/modules/Space/lib/flightEvents';
-import { Meteor } from "meteor/meteor";
 
 initQuestRegularContentTutorial = function() {
 'use strict';
