@@ -4,6 +4,4 @@ initQuestContent = function() {
   initQuestRegularContent();
   initQuestDailyContent();
 
-  Game.Helpers.deepFreeze(Game.Quest.regularQuests);
-  Game.Helpers.deepFreeze(Game.Quest.dailyQuests);
 };

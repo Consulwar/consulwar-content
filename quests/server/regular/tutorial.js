@@ -1,3 +1,7 @@
+import { Meteor } from 'meteor/meteor';
+import Space from '/imports/modules/Space/lib/space';
+import FlightEvents from '/imports/modules/Space/lib/flightEvents';
+
 initQuestRegularContentTutorial = function() {
 'use strict';
 
@@ -27,7 +31,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'house', 1);
+      return Game.Building.has({
+        group: 'residential',
+        engName: 'house',
+        level: 1,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildMetal1',
@@ -44,7 +52,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'metal', 1);
+      return Game.Building.has({
+        group: 'residential',
+        engName: 'metal',
+        level: 1,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildCrystal1',
@@ -61,7 +73,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'crystal', 1);
+      return Game.Building.has({
+        group: 'residential',
+        engName: 'crystal',
+        level: 1,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildPowerstation1',
@@ -78,7 +94,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('military', 'powerstation', 1);
+      return Game.Building.has({
+        group: 'military',
+        engName: 'powerstation',
+        level: 1,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildHouse5',
@@ -95,7 +115,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'house', 5);
+      return Game.Building.has({
+        group: 'residential',
+        engName: 'house',
+        level: 5,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildMetal5',
@@ -112,7 +136,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'metal', 5);
+      return Game.Building.has({
+        group: 'residential',
+        engName: 'metal',
+        level: 5,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildCrystal5',
@@ -129,7 +157,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'crystal', 5);
+      return Game.Building.has({
+        group: 'residential',
+        engName: 'crystal',
+        level: 5,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildPowerstation5',
@@ -146,7 +178,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('military', 'powerstation', 5);
+      return Game.Building.has({
+        group: 'military',
+        engName: 'powerstation',
+        level: 5,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildLaboratory5',
@@ -163,7 +199,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('military', 'laboratory', 5);
+      return Game.Building.has({
+        group: 'military',
+        engName: 'laboratory',
+        level: 5,
+      });
     }
   }, false), new game.Quest({
     engName: 'researchEnergy5',
@@ -180,7 +220,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Research.has('evolution', 'energy', 5);
+      return Game.Research.has({
+        group: 'evolution',
+        engName: 'energy',
+        level: 5,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildHouse10',
@@ -197,7 +241,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'house', 10);
+      return Game.Building.has({
+        group: 'residential',
+        engName: 'house',
+        level: 10,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildMetalCrystal10',
@@ -214,7 +262,18 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'metal', 10) && Game.Building.has('residential', 'crystal', 10);
+      return (
+        Game.Building.has({
+          group: 'residential',
+          engName: 'metal',
+          level: 10,
+        })
+        && Game.Building.has({
+          group: 'residential',
+          engName: 'crystal',
+          level: 10,
+        })
+      );
     }
   }, false), new game.Quest({
     engName: 'buildPowerstation10',
@@ -231,7 +290,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('military', 'powerstation', 10);
+      return Game.Building.has({
+        group: 'military',
+        engName: 'powerstation',
+        level: 10,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildBarracks5',
@@ -248,7 +311,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('military', 'barracks', 5);
+      return Game.Building.has({
+        group: 'military',
+        engName: 'barracks',
+        level: 5,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildFathers20',
@@ -265,7 +332,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Unit.has('ground', 'fathers', 5);
+      return Game.Unit.has({
+        group: 'ground',
+        engName: 'fathers',
+        count: 5,
+      });
     }
   }, false), new game.Quest({
     engName: 'sendFatherReinforcement',
@@ -299,7 +370,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('military', 'laboratory', 10);
+      return Game.Building.has({
+        group: 'military',
+        engName: 'laboratory',
+        level: 10,
+      });
     }
   }, false), new game.Quest({
     engName: 'researchAlloy5Energy10',
@@ -316,7 +391,18 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Research.has('evolution', 'alloy', 5) && Game.Research.has('evolution', 'energy', 10);
+      return (
+        Game.Research.has({
+          group: 'evolution',
+          engName: 'alloy',
+          level: 5,
+        })
+        && Game.Research.has({
+          group: 'evolution',
+          engName: 'energy',
+          level: 10,
+        })
+      );
     }
   }, false), new game.Quest({
     engName: 'buildHouse15',
@@ -333,7 +419,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'house', 15);
+      return Game.Building.has({
+        group: 'residential',
+        engName: 'house',
+        level: 15,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildMetalCrystal15',
@@ -350,7 +440,18 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'metal', 15) && Game.Building.has('residential', 'crystal', 15);
+      return (
+        Game.Building.has({
+          group: 'residential',
+          engName: 'metal',
+          level: 15,
+        })
+        && Game.Building.has({
+          group: 'residential',
+          engName: 'crystal',
+          level: 15,
+        })
+      );
     }
   }, false), new game.Quest({
     engName: 'buildPowerstation15',
@@ -367,7 +468,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('military', 'powerstation', 15);
+      return Game.Building.has({
+        group: 'military',
+        engName: 'powerstation',
+        level: 15,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildFactory5',
@@ -384,7 +489,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('military', 'factory', 5);
+      return Game.Building.has({
+        group: 'military',
+        engName: 'factory',
+        level: 5,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildAgmogedcar5',
@@ -401,7 +510,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Unit.has('ground', 'agmogedcar', 1);
+      return Game.Unit.has({
+        group: 'ground',
+        engName: 'agmogedcar',
+        count: 1,
+      });
     }
   }, false), new game.Quest({
     engName: 'sendAgmogedcarReinforcement',
@@ -435,7 +548,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('military', 'laboratory', 15);
+      return Game.Building.has({
+        group: 'military',
+        engName: 'laboratory',
+        level: 15,
+      });
     }
   }, false), new game.Quest({
     engName: 'researchAlloy10Science5',
@@ -452,7 +569,18 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Research.has('evolution', 'alloy', 10) && Game.Research.has('evolution', 'science', 5);
+      return (
+        Game.Research.has({
+          group: 'evolution',
+          engName: 'alloy',
+          level: 10,
+        })
+        && Game.Research.has({
+          group: 'evolution',
+          engName: 'science',
+          level: 5,
+        })
+      );
     }
   }, false), new game.Quest({
     engName: 'buildHouse20',
@@ -469,7 +597,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'house', 20);
+      return Game.Building.has({
+        group: 'residential',
+        engName: 'house',
+        level: 20,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildSpaceport5',
@@ -486,7 +618,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'spaceport', 5);
+      return Game.Building.has({
+        group: 'residential',
+        engName: 'spaceport',
+        level: 5,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildMetalCrystal20',
@@ -503,7 +639,18 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'metal', 20) && Game.Building.has('residential', 'crystal', 20);
+      return (
+        Game.Building.has({
+          group: 'residential',
+          engName: 'metal',
+          level: 20,
+        })
+        && Game.Building.has({
+          group: 'residential',
+          engName: 'crystal',
+          level: 20,
+        })
+      );
     }
   }, false), new game.Quest({
     engName: 'buildPowerstation20',
@@ -520,7 +667,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('military', 'powerstation', 20);
+      return Game.Building.has({
+        group: 'military',
+        engName: 'powerstation',
+        level: 20,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildAirfield5',
@@ -537,7 +688,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('military', 'airfield', 5);
+      return Game.Building.has({
+        group: 'military',
+        engName: 'airfield',
+        level: 5,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildLaboratory20',
@@ -554,7 +709,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('military', 'laboratory', 20);
+      return Game.Building.has({
+        group: 'military',
+        engName: 'laboratory',
+        level: 20,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildSpaceport10',
@@ -571,7 +730,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'spaceport', 10);
+      return Game.Building.has({
+        group: 'residential',
+        engName: 'spaceport',
+        level: 10,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildEntertainment5',
@@ -588,7 +751,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'entertainment', 5);
+      return Game.Building.has({
+        group: 'residential',
+        engName: 'entertainment',
+        level: 5,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildPowerstation25',
@@ -605,7 +772,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('military', 'powerstation', 25);
+      return Game.Building.has({
+        group: 'military',
+        engName: 'powerstation',
+        level: 25,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildShipyard5',
@@ -622,7 +793,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('military', 'shipyard', 5);
+      return Game.Building.has({
+        group: 'military',
+        engName: 'shipyard',
+        level: 5,
+      });
     }
   }, false), new game.Quest({
     engName: 'buildGammadrone10',
@@ -639,7 +814,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Unit.has('fleet', 'wasp', 5);
+      return Game.Unit.has({
+        group: 'fleet',
+        engName: 'wasp',
+        count: 5,
+      });
     }
   }, false), new game.Quest({
     engName: 'fightAtCosmos',
@@ -657,10 +836,10 @@ new game.QuestLine({
     },
     isDone: function() {
       var user = Meteor.user();
-      return Game.SpaceEvents.Collection.findOne({
-        user_id: user._id,
-        type: Game.SpaceEvents.type.SHIP,
-        'info.isHumans': true
+      return Space.collection.findOne({
+        type: FlightEvents.EVENT_TYPE,
+        'data.userId': user._id,
+        'data.isHumans': true,
       }) || false;
     }
   }, false), new game.Quest({
@@ -695,7 +874,11 @@ new game.QuestLine({
       }
     },
     isDone: function() {
-      return Game.Building.has('residential', 'house', 25);
+      return Game.Building.has({
+        group: 'residential',
+        engName: 'house',
+        level: 25,
+      });
     }
   }, false)
 ], false);
