@@ -7,7 +7,7 @@ initQuestRegularContentTutorial = function() {
 
 // TODO: Когда будете настраивать цепочки квестов, используйте функцию
 //       Game.Quest.checkFinished('tutorial')
-
+/*
 new game.QuestLine({
   who: 'tamily',
   engName: 'Tutorial',
@@ -882,5 +882,5 @@ new game.QuestLine({
     }
   }, false)
 ], false);
-
+*/
 };
