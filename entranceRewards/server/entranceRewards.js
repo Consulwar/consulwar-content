@@ -36,7 +36,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 7,
-  profit: { units: { ground: { agmogedcar: 1 } } }
+  profit: { units: { 'Unit/Human/Ground/Enginery/Agmogedcar': 1 } },
 });
 
 // 2 неделя
@@ -47,7 +47,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 9,
-  profit: { units: { defense: { ionbomb: 10 } } }
+  profit: { units: { 'Unit/Human/Defense/IonMine': 10 } },
 });
 
 new game.EntranceReward({
@@ -67,12 +67,12 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 13,
-  profit: { units: { fleet: { mirage: 5 } } }
+  profit: { units: { 'Unit/Human/Space/Mirage': 5 } },
 });
 
 new game.EntranceReward({
   day: 14,
-  profit: { units: { ground: { fast: 1 } } }
+  profit: { units: { 'Unit/Human/Ground/Air/Fast': 1 } },
 });
 
 // 3 неделя
@@ -119,7 +119,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 23,
-  profit: { units: { defense: { turret: 5 } } }
+  profit: { units: { 'Unit/Human/Defense/Turret': 5 } },
 });
 
 new game.EntranceReward({
@@ -134,7 +134,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 26,
-  profit: { units: { fleet: { gammadrone: 10 } } }
+  profit: { units: { 'Unit/Human/Space/Gammadrone': 10 } },
 });
 
 new game.EntranceReward({
@@ -144,7 +144,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 28,
-  profit: { units: { ground: { horizontalbarman: 5 } } }
+  profit: { units: { 'Unit/Human/Ground/Infantry/Horizontalbarman': 5 } },
 });
 
 // 5 неделя
@@ -155,7 +155,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 30,
-  profit: { units: { fleet: { wasp: 25 } } }
+  profit: { units: { 'Unit/Human/Space/Wasp': 25 } },
 });
 
 new game.EntranceReward({
@@ -175,7 +175,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 34,
-  profit: { units: { defense: { laserturret: 5 } } }
+  profit: { units: { 'Unit/Human/Defense/LaserTurret': 5 } },
 });
 
 new game.EntranceReward({
@@ -216,7 +216,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 42,
-  profit: { units: { fleet: { frigate: 1 } } }
+  profit: { units: { 'Unit/Human/Space/Frigate': 1 } },
 });
 
 // 7 неделя
@@ -232,7 +232,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 45,
-  profit: { units: { ground: { fast: 1 } } }
+  profit: { units: { 'Unit/Human/Ground/Air/Fast': 1 } },
 });
 
 new game.EntranceReward({
@@ -242,7 +242,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 48,
-  profit: { units: { defense: { snipergun: 1 } } }
+  profit: { units: { 'Unit/Human/Defense/SniperGun': 1 } },
 });
 
 new game.EntranceReward({
@@ -273,7 +273,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 54,
-  profit: { units: { fleet: { mirage: 10 } } }
+  profit: { units: { 'Unit/Human/Space/Mirage': 10 } },
 });
 
 new game.EntranceReward({
@@ -283,7 +283,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 56,
-  profit: { units: { defense: { railcannon: 1 } } }
+  profit: { units: { 'Unit/Human/Defense/RailCannon': 1 } },
 });
 
 // 9 неделя
@@ -346,7 +346,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 68,
-  profit: { units: { defense: { ionbomb: 100 } } }
+  profit: { units: { 'Unit/Human/Defense/IonMine': 100 } },
 });
 
 new game.EntranceReward({
@@ -367,7 +367,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 73,
-  profit: { units: { fleet: { truckc: 10 } } }
+  profit: { units: { 'Unit/Human/Space/TruckC': 10 } },
 });
 
 new game.EntranceReward({
@@ -418,7 +418,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 83,
-  profit: { units: { ground: { grandmother: 1 } } }
+  profit: { units: { 'Unit/Human/Ground/Air/Grandmother': 1 } },
 });
 
 new game.EntranceReward({
@@ -434,7 +434,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 86,
-  profit: { units: { fleet: { gammadrone: 50 } } }
+  profit: { units: { 'Unit/Human/Space/Gammadrone': 50 } },
 });
 
 new game.EntranceReward({
@@ -460,7 +460,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 94,
-  profit: { units: { defense: { laserturret: 25 } } }
+  profit: { units: { 'Unit/Human/Defense/LaserTurret': 25 } },
 });
 
 new game.EntranceReward({
@@ -501,7 +501,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 102,
-  profit: { units: { fleet: { frigate: 1 } } }
+  profit: { units: { 'Unit/Human/Space/Frigate': 1 } },
 });
 
 new game.EntranceReward({
@@ -553,7 +553,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 116,
-  profit: { units: { fleet: { frigate: 1 } } }
+  profit: { units: { 'Unit/Human/Space/Frigate': 1 } },
 });
 
 new game.EntranceReward({
@@ -611,7 +611,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 130,
-  profit: { units: { defense: { laserturret: 80 } } }
+  profit: { units: { 'Unit/Human/Defense/LaserTurret': 80 } },
 });
 
 new game.EntranceReward({
@@ -627,7 +627,7 @@ new game.EntranceReward({
 // 20 неделя
 new game.EntranceReward({
   day: 134,
-  profit: { units: { fleet: { truckc: 50 } } }
+  profit: { units: { 'Unit/Human/Space/TruckC': 50 } },
 });
 
 new game.EntranceReward({
@@ -678,12 +678,12 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 144,
-  profit: { units: { ground: { prickartillery: 1 } } }
+  profit: { units: { 'Unit/Human/Ground/Air/Xynlet': 1 } },
 });
 
 new game.EntranceReward({
   day: 145,
-  profit: { units: { fleet: { mirage: 25 } } }
+  profit: { units: { 'Unit/Human/Space/Mirage': 25 } },
 });
 
 new game.EntranceReward({
@@ -776,7 +776,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 164,
-  profit: { units: { fleet: { frigate: 2 } } }
+  profit: { units: { 'Unit/Human/Space/Frigate': 2 } },
 });
 
 new game.EntranceReward({
@@ -786,7 +786,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 167,
-  profit: { units: { defense: { snipergun: 2 } } }
+  profit: { units: { 'Unit/Human/Defense/SniperGun': 2 } },
 });
 
 new game.EntranceReward({
@@ -833,7 +833,7 @@ new game.EntranceReward({
 
 new game.EntranceReward({
   day: 177,
-  profit: { units: { fleet: { cruiser: 1 } } }
+  profit: { units: { 'Unit/Human/Space/Cruiser': 1 } },
 });
 
 new game.EntranceReward({
