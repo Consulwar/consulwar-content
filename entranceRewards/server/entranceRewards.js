@@ -1081,7 +1081,7 @@ new game.EntranceReward({
 });
 
 new game.EntranceReward({
-  day: [301, 360],
+  day: [301, 999],
   profit: 'blue'
 });
 
